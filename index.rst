@@ -11,7 +11,7 @@
 .. title:: 信息技术
 
 .. toctree::
-   :caption: 走进Python程序
+   :caption: Python介绍
    :hidden:
    :maxdepth: 10
 

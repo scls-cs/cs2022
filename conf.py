@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'CS2022'
+project = 'SCLS CS2022'
 copyright = '2022, Derek'
 author = 'Derek'
 

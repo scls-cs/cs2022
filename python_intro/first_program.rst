@@ -24,11 +24,11 @@
 
 .. glossary::
 
-  变量（variable)
+  变量（Variable)
 
     用来保存程序数据。使用使用变量前需要对变量进行定义。
 
-  赋值符（assignment operator)
+  赋值符（Assignment operator)
 
     作用是将符号右边的值赋给左边的变量。
 

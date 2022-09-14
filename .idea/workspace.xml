@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/first_program.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/test.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/variable.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/43ec05862ad9af218cb0fab256375b1b/变量与数据类型.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/8754308bb0030b26ba4c67ef50669afc/类型转换编程作业.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/fd7fdb5dddd0e08af68785b265a070a2/认识Python程序.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/ffcff90e11bb34ae5b08ff91de3ca430/信息技术第一课.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/python_intro/first_program.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/python_intro/test.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/python_intro/variable.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/python_intro/first_program.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/python_intro/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/python_intro/variable.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_intro/variable.rst" beforeDir="false" afterPath="$PROJECT_DIR$/python_intro/variable.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662378484726</updated>
-      <workItem from="1663130759421" duration="2228000" />
+      <workItem from="1663130759421" duration="2568000" />
     </task>
     <servers />
   </component>

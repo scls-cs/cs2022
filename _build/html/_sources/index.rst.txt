@@ -18,3 +18,4 @@
    :maxdepth: 10
 
    python_intro/first_program
+   python_intro/variable

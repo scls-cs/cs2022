@@ -91,6 +91,9 @@
 
 :download:`信息技术第一讲课件 <认识Python程序.pptx>`.
 
+.. _good_hw1:
+
+
 优秀作业
 -------
 10次运算
@@ -110,12 +113,10 @@
 
 .. code-block:: python
 
-    a = 1 #yuanzihao
-
+    a=1   #dingchengtian
     a=a+a
-    a=a*a*a+a
-    a=(a*a*a+a+a/a)*(a/a+a/a)
-    print(a)
+    a=a+a+a
+    a=((a+a)/a+a)*(a/a+a)*a*a+a
 
 
 

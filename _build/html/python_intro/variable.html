@@ -85,7 +85,7 @@
 </dd>
 <dt id="term-float">浮点数（float):<a class="headerlink" href="#term-float" title="Permalink to this term"></a></dt><dd><p>比如0.5，-5.2，2016.1453</p>
 </dd>
-<dt id="term-boolean-TrueFalse">布尔值（boolean)：True和False<a class="headerlink" href="#term-boolean-TrueFalse" title="Permalink to this term"></a></dt><dd><p>True和False</p>
+<dt id="term-boolean">布尔值（boolean)：<a class="headerlink" href="#term-boolean" title="Permalink to this term"></a></dt><dd><p>True和False</p>
 </dd>
 <dt id="term-complex">复数（complex)：<a class="headerlink" href="#term-complex" title="Permalink to this term"></a></dt><dd><p>比如3+5j</p>
 </dd>
@@ -139,6 +139,24 @@
 <section id="id7">
 <h2>作业<a class="headerlink" href="#id7" title="Permalink to this headline"></a></h2>
 <p><a class="reference download internal" download="" href="../_downloads/8754308bb0030b26ba4c67ef50669afc/类型转换编程作业.pdf"><code class="xref download docutils literal notranslate"><span class="pre">类型转换编程作业</span></code></a>.</p>
+<p>有三点需要注意：</p>
+<ol class="arabic simple">
+<li><p>input()函数是将键盘输入结果保存到变量里，所以需要你输入数据；如果没有键盘输入，程序会停留在input()等待；</p></li>
+<li><p>执行input()时，屏幕上会先打印括号里的内容，例如”What is your name?”</p></li>
+<li><p>变量命名要符合相应的规则，不可以出现空格。</p></li>
+</ol>
+<p>大家可以参考下面的程序，先感受程序执行的过程：</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">name1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter name : &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">name1</span><span class="p">)</span>
+
+<span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span> <span class="p">(</span><span class="s2">&quot;Enter number :&quot;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+
+<span class="c1"># Printing type of input value</span>
+<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;type of number&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
+<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;type of name&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">name1</span><span class="p">))</span>
+</pre></div>
+</div>
 </section>
 </section>
 

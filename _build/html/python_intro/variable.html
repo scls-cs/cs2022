@@ -145,18 +145,22 @@
 <li><p>执行input()时，屏幕上会先打印括号里的内容，例如”What is your name?”</p></li>
 <li><p>变量命名要符合相应的规则，不可以出现空格。</p></li>
 </ol>
-<p>大家可以参考下面的程序，先感受程序执行的过程：</p>
+<p>大家可以参考下面的程序，关注程序是如何打印结果的，以及倒数第二行int()的作用。</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">name1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter name : &quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">name1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your name:&quot;</span><span class="p">,</span> <span class="n">name1</span><span class="p">)</span>
 
 <span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span> <span class="p">(</span><span class="s2">&quot;Enter number :&quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Your number:&quot;</span><span class="p">,</span><span class="n">num</span><span class="p">)</span>
 
 <span class="c1"># Printing type of input value</span>
 <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;type of number&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
 <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;type of name&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">name1</span><span class="p">))</span>
+
+<span class="n">new_num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;type of new number&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">new_num</span><span class="p">))</span>
 </pre></div>
 </div>
+<p>如果你想了解类型转换更多的细节，可以参考：<a class="reference external" href="https://www.runoob.com/python3/python3-type-conversion.html">https://www.runoob.com/python3/python3-type-conversion.html</a></p>
 </section>
 </section>
 

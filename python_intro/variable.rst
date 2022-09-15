@@ -112,3 +112,6 @@ Python提供了可以广泛应用的数据类型。在前面一节我们已经�
     new_num = int(num)
     print ("type of new number", type(new_num))
 
+
+如果你想了解类型转换更多的细节，可以参考：https://www.w3school.com.cn/python/ref_func_int.asp
+

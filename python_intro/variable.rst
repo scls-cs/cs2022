@@ -95,7 +95,7 @@ Python提供了可以广泛应用的数据类型。在前面一节我们已经�
 
 3. 变量命名要符合相应的规则，不可以出现空格。
 
-大家可以参考下面的程序，先感受程序执行的过程，以及打印数据的方法：
+大家可以参考下面的程序，关注程序是如何打印结果的，以及倒数第二行int()的作用。
 
 .. code-block:: python
 
@@ -108,3 +108,7 @@ Python提供了可以广泛应用的数据类型。在前面一节我们已经�
     # Printing type of input value
     print ("type of number", type(num))
     print ("type of name", type(name1))
+
+    new_num = int(num)
+    print ("type of new number", type(new_num))
+

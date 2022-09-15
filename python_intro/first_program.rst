@@ -91,4 +91,61 @@
 
 :download:`信息技术第一讲课件 <认识Python程序.pptx>`.
 
-作业
+优秀作业
+-------
+10次运算
++++++++
+.. code-block:: python
+
+    a=1     #liyuzhou
+    a=a+a
+    a=a*a*a+a
+    a=a*a*a+a+a/a
+    a=a+a
+    print(a)
+
+
+12次运算
+++++
+
+.. code-block:: python
+
+    a=1   #dingchengtian
+    a=a+a
+    a=a+a+a
+    a=((a+a)/a+a)*(a/a+a)*a*a+a
+
+
+
+13次运算
+++++
+
+.. code-block:: python
+
+    a = 1 #yuanzihao
+
+    a=a+a
+    a=a*a*a+a
+    a=(a*a*a+a+a/a)*(a/a+a/a)
+    print(a)
+
+.. code-block:: python
+
+    a = 1 #zhangyiyao
+
+    a=a+a+a+a+a
+    a=(a+a-a/a)*a
+    a=a*a
+    a=a-(a+a+a)/a
+    print(a)
+
+.. code-block:: python
+
+    a = 1 #liyue
+
+    a=a+a
+    a=a*a+a/a
+    a=a*a+a*a-a
+    a=a*a-(a+a+a)/a
+    print(a)
+

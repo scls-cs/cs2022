@@ -77,6 +77,33 @@ Python提供了可以广泛应用的数据类型。在前面一节我们已经�
 * 全小写，单词用下划线连接
 * 不要过长
 
+类型转换
+---------
+
+将一种数据类型（整数，字符串，浮点数等）的值转换为另一种数据类型的过程称为类型转换。
+
+我们已经学习了三种数据类型：
+* 整型（int）
+* 浮点型（float）
+* 字符串型（str）
+Python中提供了几组类型转换的函数，可以将一个类型的变量转换为另外一种类型。
+* int()：将浮点数或者字符串转化为整数。浮点数去掉小数点后的数值，仅保留整数部分。
+* float()：将整型或者字符串转换为浮点数。
+* str()：将整型或者浮点数转化为字符串。
+
+.. code-block:: python
+
+        a = 1
+        print("The type of a is", a)     #output:int
+        b = float(a)                     #将整型数据转换为浮点型
+        c = str(a)                       #将整型数据转换为字符串型
+
+        print("The value of b is", b)      #output: 1.0
+        print("The type of b is", type(b)) #output: float
+
+        print("The value of c is", c)      #output: "1"
+        print("The type of c is", type(c)) #output: str
+
 课件
 ----
 
@@ -114,4 +141,5 @@ Python提供了可以广泛应用的数据类型。在前面一节我们已经�
 
 
 如果你想了解类型转换更多的细节，可以参考：https://www.w3school.com.cn/python/ref_func_int.asp
+
 

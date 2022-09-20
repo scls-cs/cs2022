@@ -25,3 +25,10 @@
 
    python_intro/first_program
    python_intro/variable
+
+.. toctree::
+   :caption: 函数
+   :hidden:
+   :maxdepth: 10
+
+   function/function

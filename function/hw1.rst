@@ -18,7 +18,7 @@ Write a function that prompts the user for mass as an integer (in kilograms) and
 
 Geometry I
 ---------
-Please type the code example :ref:`geo` in onlineGDB. Run the code and test it with your inputs. It is recommend to manually type the code by yourself, but copy and paste is perfectly as well.
+Please type the code example :ref:`geo` in onlineGDB. Run the code and test it with your inputs. It is recommended to manually type the code by yourself, but copy and paste is fine as well.
 
 Geometry II
 -----------

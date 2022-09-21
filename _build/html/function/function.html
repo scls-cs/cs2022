@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>引入函数 &mdash; SCLS CS2022  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="变量与数据类型" href="../python_intro/variable.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> SCLS CS2022
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Python介绍</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/first_program.html">走近Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/variable.html">变量与数据类型</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">函数</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">引入函数</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">函数模版</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">函数示例</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">计算小狗的年龄</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#geometry-formulas">Geometry Formulas</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">函数调用过程</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">作业</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">优秀作业</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SCLS CS2022</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>引入函数</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/function/function.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>引入函数<a class="headerlink" href="#id1" title="Permalink to this headline"></a></h1>
+<section id="id2">
+<h2>函数模版<a class="headerlink" href="#id2" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">function_name</span><span class="p">(</span><span class="n">arguments</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A docomentation string. &quot;&quot;&quot;</span>
+    <span class="c1"># Your function&#39;s code goes here.</span>
+    <span class="c1"># Your function&#39;s code goes here.</span>
+    <span class="c1"># Your function&#39;s code goes here.</span>
+    <span class="k">return</span> <span class="n">some_value</span>
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li><p><strong>函数引入了两个新关键字：def和return</strong></p></li>
+</ol>
+<p>这两个单词在解释器里会自动高亮显示。def指定函数名称，并列出函数的所有参数。return的作用是向调用这个函数的代码返回一个值。</p>
+<ol class="arabic simple" start="2">
+<li><p><strong>函数可以接收参数</strong></p></li>
+</ol>
+<p>参数是传递给函数的值，放在函数名后面的括号中。不过无论括号里是否有参数，函数名后面都要加一个括号。</p>
+<ol class="arabic simple" start="3">
+<li><p>函数包括代码，（通常）还有文档</p></li>
+</ol>
+<p>代码在def下要锁进一层。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Python使用“函数”这个词描述一个可重用的代码块。其他编程语言也可能使用“过程”、“方法”等名字，这些词语它们指代的是同样一个事物。</p>
+</div>
+</section>
+<section id="id3">
+<h2>函数示例<a class="headerlink" href="#id3" title="Permalink to this headline"></a></h2>
+<section id="id4">
+<h3>计算小狗的年龄<a class="headerlink" href="#id4" title="Permalink to this headline"></a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">dog_age</span><span class="p">():</span>
+    <span class="n">birth_year</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;你家小狗的出生年份是？&quot;</span><span class="p">)</span>
+    <span class="n">current_year</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;今年是几几年？&quot;</span><span class="p">)</span>
+    <span class="n">age</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">current_year</span><span class="p">)</span> <span class="o">-</span> <span class="nb">int</span><span class="p">(</span><span class="n">birth_year</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>我们将4行代码转换了一个函数：dog_age()。下面我们来调用这个函数：</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">dog_age</span><span class="p">():</span>
+     <span class="n">birth_year</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;你家小狗的出生年份是？&quot;</span><span class="p">)</span>
+     <span class="n">current_year</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;今年是几几年？&quot;</span><span class="p">)</span>
+     <span class="n">age</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">current_year</span><span class="p">)</span> <span class="o">-</span> <span class="nb">int</span><span class="p">(</span><span class="n">birth_year</span><span class="p">)</span>
+     <span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
+
+<span class="n">dog_age</span><span class="p">()</span>    <span class="c1">#调用函数</span>
+</pre></div>
+</div>
+<p>调用函数也就是执行函数。可以把函数理解成一台”电风扇”。每次打开电风扇的开关，就是一次”电风扇”的调用。如果没有函数调用，那么函数就不会被执行。</p>
+<p>调用函数的方式就是提供函数名和参数值，参数值用括号括起来。如果没有传递参数，那么括号里面为空。</p>
+</section>
+<section id="geometry-formulas">
+<span id="geo"></span><h3>Geometry Formulas<a class="headerlink" href="#geometry-formulas" title="Permalink to this headline"></a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">get_circle_area</span><span class="p">():</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please enter the radius: &quot;</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="mf">3.14</span><span class="o">*</span><span class="n">r</span><span class="o">*</span><span class="n">r</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">get_rec_area</span><span class="p">():</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please enter side a: &quot;</span><span class="p">))</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please enter side b: &quot;</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">b</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">get_square_area</span><span class="p">():</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please enter side a: &quot;</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">a</span><span class="p">)</span>
+
+<span class="n">get_circle_area</span><span class="p">()</span>
+<span class="n">get_rec_area</span><span class="p">()</span>
+<span class="n">get_square_area</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="id5">
+<h2>函数调用过程<a class="headerlink" href="#id5" title="Permalink to this headline"></a></h2>
+<p>函数的执行过程分为三步：</p>
+<ol class="arabic simple">
+<li><p>函数的调用</p></li>
+<li><p>函数体执行</p></li>
+<li><p>返回</p></li>
+</ol>
+<p>解释器遇到函数调用语句后，会跳转到函数体内部。函数体语句执行完毕后，解释器会跳回到调用处，开始执行接下来的语句。</p>
+<p>函数如果只定义，但是不被调用的话，函数体是不会被执行的。</p>
+</section>
+<section id="id6">
+<h2>作业<a class="headerlink" href="#id6" title="Permalink to this headline"></a></h2>
+<p>完成 <a class="reference internal" href="hw1.html#hw1"><span class="std std-ref">Problem Set 0</span></a></p>
+</section>
+<section id="id7">
+<h2>优秀作业<a class="headerlink" href="#id7" title="Permalink to this headline"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../python_intro/variable.html" class="btn btn-neutral float-left" title="变量与数据类型" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Derek.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

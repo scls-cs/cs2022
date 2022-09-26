@@ -32,3 +32,4 @@
    :maxdepth: 10
 
    function/function
+   function/string

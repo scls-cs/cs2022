@@ -9,7 +9,7 @@ TASK I:
 
 2. 进入https://codingbat.com/python/String-1，点击第一个问题hello_name。阅读要求并且实现这个函数。实现完毕以后你可以点击run。如果函数通过所有测试，那么屏幕会显示All Correct!如果函数有问题，你可以比较实际结果和Expected Output(正确结果）之间的区别。
 
-这个函数的实现在 :ref:`hw2`，不过建议你先自己尝试完成。
+这个函数的实现在 :ref:`hello_name`，不过建议你先自己尝试完成。
 
 3. 完成https://codingbat.com/python/String-1的所有问题。将运行结果的截图提交到钉钉作业本里。
 

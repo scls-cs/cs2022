@@ -12,7 +12,7 @@ Write a function called s1() that prompts the user to enter two points on the Ca
 
     slope = \frac{y_{2}-y_{1}}{x_{2}-x_{1}}
 
-    dist =  \sqrt{(y_{2}-y_{1})^2}
+    dist =  \sqrt{(y_{2}-y_{1})^2 + (x_{2}-x_{1})^2}
 
 For example, if you have two points: (1,1) and (2,2), the slope and distance between the two points should be 1 and 1.4.
 

@@ -37,11 +37,11 @@ The equation for gravitation force thus takes the form:
 
 where
 
-* F: gravitational force acting between two objects
-* m1 and m2: the masses of the objects
-* r: the distance between the centers of their masses.
+* F: gravitational force acting between two objects(in Newton)
+* m1 and m2: the masses of the objects(in kg)
+* r: the distance between the centers of their masses(in m)
 
-G is the gravitational constant, which is :math:`6.67*10^{-11} m^3.kg^{-1}.s^{-2}`
+G is the gravitational constant, which is :math:`6.67*10^{-11}`
 
 Write a function called s2() that prompts the user to enter the masses of two objects(for example, two stars), and the distance between them. Then it should calculate the gravitational force. When you call s2(), the output should be like this:
 

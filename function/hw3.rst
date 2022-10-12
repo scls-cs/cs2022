@@ -63,7 +63,9 @@ Lottery
 
 Most lotteries allow users to choose some balls painted in different numbers, out of the box. If the user choose all the balls correctly, then he/she wins the lottery.
 
-Write a method gamble() to calculate a person’s chance of winning a lottery. The number of possible choices of balls is :math:`\frac{n!}{(n-k)! * k!}`, when the user is choosing k balls out of n. When you call gamble(), the output should be look like this:
+Write a method gamble() to calculate a person’s chance of winning a lottery. For example, if the user needs to choose 1 ball out of 6, then the chance of winning should be 0.1666.
+
+The number of possible choices of balls is :math:`\frac{n!}{(n-k)! * k!}`, when the user is choosing k balls out of n. When you call gamble(), the output should be look like this:
 
 .. image:: gamble.gif
   :width: 750

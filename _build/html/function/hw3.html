@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problem Set 3 &mdash; SCLS CS2022  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/matrixeq.css?v=58BC228F" type="text/css" />
+      <link rel="stylesheet" href="../_static/webgldemo.css?v=B36B48D" type="text/css" />
+      <link rel="stylesheet" href="../_static/webglinteractive.css?v=910DF1E1" type="text/css" />
+      <link rel="stylesheet" href="../_static/CodeChat.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/accessibility.css?v=50109A2C" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script defer="" src="../_static/matrixeq.js?v=D64CFA5A"></script>
+        <script defer="" src="../_static/webglinteractive.js?v=2B768384"></script>
+        <script defer="" src="../_static/FileSaver.min.js?v=8408C997"></script>
+        <script defer="" src="../_static/html4css1.css?v=4533ACD3"></script>
+        <script defer="" src="../_static/animationbase.js?v=A043C3A7"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> SCLS CS2022
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Python介绍</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/first_program.html">走近Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/variable.html">变量与数据类型</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">函数</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function.html">引入函数</a></li>
+<li class="toctree-l1"><a class="reference internal" href="string.html">字符串</a></li>
+<li class="toctree-l1"><a class="reference internal" href="math.html">数学函数</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SCLS CS2022</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Problem Set 3</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/function/hw3.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="problem-set-3">
+<span id="hw3"></span><h1>Problem Set 3<a class="headerlink" href="#problem-set-3" title="Permalink to this heading"></a></h1>
+<section id="distance">
+<h2>Distance<a class="headerlink" href="#distance" title="Permalink to this heading"></a></h2>
+<p>Write a funtion called s1() that prompts the user to enter two points on the Cartesian plane with different x-coordinates and calculates the slope between the two points and the distance between the two points. The formulas for both of these quantities are as follows between points (x1,y1) and (x2,y2):</p>
+<div class="math notranslate nohighlight">
+\[ \begin{align}\begin{aligned}slope = \frac{y_{2}-y_{1}}{x_{2}-x_{1}}\\dist =  \sqrt{(y_{2}-y_{1})^2}\end{aligned}\end{align} \]</div>
+<p>When you call s1(), the output should be like this:</p>
+<a class="reference internal image-reference" href="../_images/s1.gif"><img alt="../_images/s1.gif" src="../_images/s1.gif" style="width: 750px;" /></a>
+</section>
+<section id="universal-gravitation">
+<h2>Universal Gravitation<a class="headerlink" href="#universal-gravitation" title="Permalink to this heading"></a></h2>
+<p>The force of gravity, or gravitational force, pulls objects with mass toward each other. We often think about the force of gravity from Earth. This force is what keeps your body on the ground. But any object with mass exerts a gravitational force on all other objects with mass.</p>
+<p>The gravitational force between two objects is larger when the masses of the objects are larger. That’s why you can feel the gravitational force between you and Earth, but the force between you and objects with smaller masses is too weak to feel.</p>
+<p>The gravitational force between two objects also depends on the distance between their centers. The further objects are from one another, the weaker the force is.</p>
+<p>The equation for gravitation force thus takes the form:</p>
+<div class="math notranslate nohighlight">
+\[F = G\frac{m1m2}{r^2}\]</div>
+<p>where</p>
+<ul class="simple">
+<li><p>F: gravitational force acting between two objects</p></li>
+<li><p>m1 and m2: the masses of the objects</p></li>
+<li><p>r: the distance between the centers of their masses.</p></li>
+</ul>
+<p>G is the gravitational constant, which is <span class="math notranslate nohighlight">\(6.67*10^{-11} m^3.kg^{-1}.s^{-2}\)</span></p>
+<p>Write a function called s2() that prompts the user to enter the masses of two objects(for example, two stars), and the distance between them. Then it calculate the gravitational force. When you call s2(), the output should be like this:</p>
+<a class="reference internal image-reference" href="../_images/s2.gif"><img alt="../_images/s2.gif" src="../_images/s2.gif" style="width: 750px;" /></a>
+</section>
+<section id="solve-equation">
+<h2>Solve Equation<a class="headerlink" href="#solve-equation" title="Permalink to this heading"></a></h2>
+<p>Write a function called solve() to solve quadratic equation: <span class="math notranslate nohighlight">\(ax^2+bx+c=0\)</span></p>
+<p>When you call solve(), the output should be like this:</p>
+<a class="reference internal image-reference" href="../_images/solve.gif"><img alt="../_images/solve.gif" src="../_images/solve.gif" style="width: 750px;" /></a>
+</section>
+<section id="lottery">
+<h2>Lottery<a class="headerlink" href="#lottery" title="Permalink to this heading"></a></h2>
+<p>Most lotteries allow users to choose some balls painted in different numbers, out of the box. If the user choose all the balls correctly, then he/she wins the lottery.</p>
+<p>Write a method gamble() to calculate a person’s chance of winning a lottery. The number of possible choices of balls is <span class="math notranslate nohighlight">\(\frac{n!}{(n-k)! * k!}\)</span>, when the user is choosing k balls out of n. When you call gamble(), the output should be look like this:</p>
+<a class="reference internal image-reference" href="../_images/gamble.gif"><img alt="../_images/gamble.gif" src="../_images/gamble.gif" style="width: 750px;" /></a>
+</section>
+<section id="submit">
+<h2>Submit:<a class="headerlink" href="#submit" title="Permalink to this heading"></a></h2>
+<p>Put your 4 functions in one python file, and share your project link via 钉钉作业本。Please submit by Oct 16th, 22PM.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Derek.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -26,3 +26,6 @@ Implement a function called replace_space() in Python that prompts the user for 
 编写完程序之后再次保存，点击Share，在作业本中提交作业链接。
 
 作业截止时间：10月8日晚上10点。
+
+>>image:: terminal.gif
+

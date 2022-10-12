@@ -35,3 +35,4 @@
 
    function/function
    function/string
+   function/math

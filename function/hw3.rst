@@ -41,7 +41,7 @@ where
 
 G is the gravitational constant, which is :math:`6.67*10^{-11} m^3.kg^{-1}.s^{-2}`
 
-Write a function called s2() that prompts the user to enter the masses of two objects(for example, two stars), and the distance between them. Then it calculate the gravitational force. When you call s2(), the output should be like this:
+Write a function called s2() that prompts the user to enter the masses of two objects(for example, two stars), and the distance between them. Then it should calculate the gravitational force. When you call s2(), the output should be like this:
 
 .. image:: s2.gif
   :width: 750
@@ -70,5 +70,5 @@ Write a method gamble() to calculate a person’s chance of winning a lottery. T
 Submit:
 -----------
 
-Put your 4 functions into one python file, and share your project link via 钉钉作业本。Please submit by Oct 16th, 22PM.
+Put the four functions into one python file, and share your project link via 钉钉作业本。Please submit by Oct 16th, 22PM.
 

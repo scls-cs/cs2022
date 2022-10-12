@@ -6,13 +6,15 @@ Problem Set 3
 Distance
 ----------------
 
-Write a function called s1() that prompts the user to enter two points on the Cartesian plane with different x-coordinates and calculates the slope between the two points and the distance between the two points. The formulas for both of these quantities are as follows between points (x1,y1) and (x2,y2):
+Write a function called s1() that prompts the user to enter two points on the Cartesian plane with different coordinates and calculates the slope between the two points and the distance between the two points. The formulas for both of these quantities are as follows between points (x1,y1) and (x2,y2):
 
 .. math::
 
     slope = \frac{y_{2}-y_{1}}{x_{2}-x_{1}}
 
     dist =  \sqrt{(y_{2}-y_{1})^2}
+
+For example, if you have two points: (1,1) and (2,2), the slope and distance between the two points should be 1 and 1.4.
 
 When you call s1(), the output should be like this:
 

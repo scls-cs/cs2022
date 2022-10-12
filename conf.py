@@ -11,8 +11,6 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 
-from runestone import runestone_static_dirs, runestone_extensions
-
 
 # -- Project information -----------------------------------------------------
 

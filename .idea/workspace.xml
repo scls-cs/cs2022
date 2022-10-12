@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/function/gamble.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/hw3.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/math.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/s1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/s2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/solve.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/数学函数.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/environment.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/hw2.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/hw2.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/index.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/.buildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/.buildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/function/hw2.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/function/hw2.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/python_intro/first_program.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/python_intro/first_program.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/function/function.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/function.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/function/hw1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/hw1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/function/hw2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/hw2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/function/string.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/string.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/objects.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/python_intro/first_program.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/python_intro/first_program.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/python_intro/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/python_intro/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/python_intro/variable.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/python_intro/variable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/hw2.rst" beforeDir="false" afterPath="$PROJECT_DIR$/function/hw2.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_intro/first_program.rst" beforeDir="false" afterPath="$PROJECT_DIR$/python_intro/first_program.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +162,7 @@
       <workItem from="1665404037344" duration="1191000" />
       <workItem from="1665544270110" duration="1462000" />
       <workItem from="1665551714866" duration="2335000" />
-      <workItem from="1665557602055" duration="2310000" />
+      <workItem from="1665557602055" duration="2595000" />
     </task>
     <servers />
   </component>

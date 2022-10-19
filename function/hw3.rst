@@ -3,6 +3,8 @@
 Problem Set 3
 ======================
 
+.. _distance:
+
 Distance
 ----------------
 
@@ -47,6 +49,8 @@ Write a function called s2() that prompts the user to enter the masses of two ob
 
 .. image:: s2.gif
   :width: 750
+
+.. _solve equation:
 
 Solve Equation
 ----------------

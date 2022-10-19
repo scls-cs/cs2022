@@ -40,7 +40,7 @@ Write the following functions to your editor. Describe what each of the function
             return 'B'
         if(grade > 70):
             return 'C'
-         return 'D'
+        return 'D'
 
 .. code-block:: python
 

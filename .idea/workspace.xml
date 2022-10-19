@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/condition/hw4.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/condition/if.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/condition/条件判断.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/hw3.rst" beforeDir="false" afterPath="$PROJECT_DIR$/function/hw3.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_intro/variable.rst" beforeDir="false" afterPath="$PROJECT_DIR$/python_intro/variable.rst" afterDir="false" />
-    </list>
+    <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +163,7 @@
       <workItem from="1665551714866" duration="2335000" />
       <workItem from="1665557602055" duration="2986000" />
       <workItem from="1665561124806" duration="629000" />
-      <workItem from="1666174540562" duration="2741000" />
+      <workItem from="1666174540562" duration="3020000" />
     </task>
     <servers />
   </component>

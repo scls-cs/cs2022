@@ -9,6 +9,7 @@ Given the following programs, first try to predict the results. Then write the p
 Typing by yourself if highly recommended, but copy and paste it is also fine as well.
 
 .. code-block:: python
+
     regularPrice = 100;
     onClearance = True;
     hasCoupon = False;
@@ -20,6 +21,7 @@ Typing by yourself if highly recommended, but copy and paste it is also fine as 
     print(finalPrice)
 
 .. code-block:: python
+
     x = 7
     if (x < 7):
         x = 2 * x

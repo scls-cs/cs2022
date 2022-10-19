@@ -63,7 +63,7 @@ Narcissistic Number
 +++++++++++++++++++
 **Narcissistic Numbers** are defined as follows: An n-digit number is narcissistic if the sum of its digits to the nth power equal the original number. For example with 3 digits, say I choose the number 153: :math:`153 = 1^{3} + 5^{3} + 3^{3}`. So 153 is a Narcissistic Number.
 
-Write a function called check(), to determine if the number which user input is a Narcissistic Number. For example:
+Write a function called check(), to determine if a 3-digit number which user input is a Narcissistic Number. For example:
 
 * input: 153
 * output: "153 is a Narcissistic Number"

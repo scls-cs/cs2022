@@ -10,9 +10,9 @@ Typing by yourself if highly recommended, but copy and paste it is also fine as 
 
 .. code-block:: python
 
-    regularPrice = 100;
-    onClearance = True;
-    hasCoupon = False;
+    regularPrice = 100
+    onClearance = True
+    hasCoupon = False
     finalPrice = regularPrice
     if(onClearance):
         finalPrice = finalPrice - finalPrice * 0.25

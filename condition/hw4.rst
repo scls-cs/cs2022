@@ -26,8 +26,8 @@ Typing by yourself if highly recommended, but copy and paste it is also fine as 
     if (x < 7):
         x = 2 * x
     if (x % 3 == 1):
-        x = x + 2;
-    print(3 * x);
+        x = x + 2
+    print(3 * x)
 
 2. Function with if statement
 ----------------

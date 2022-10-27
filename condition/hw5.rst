@@ -43,6 +43,8 @@ Write a function checkLeapYear(year) to determine is the year is a leap year or 
 
 https://blog.csdn.net/shaier/article/details/2034196
 
+注："世纪年"就是能被100整除的年份。
+
 The parameters and return value of the function should be like:
 
 .. code-block:: python

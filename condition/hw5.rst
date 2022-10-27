@@ -23,7 +23,8 @@ The parameters and return value of the function should be like:
 
     rps(“Paper”, “Paper”) -> “It’s a draw”
 
-Part of the method should be like this:
+Part of the method might be like this:
+
 .. code-block:: python
 
     def rps(s1, s2):

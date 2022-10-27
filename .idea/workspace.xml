@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/condition/hw5.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/condition/if-else.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/condition/双分支结构.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +164,7 @@
       <workItem from="1665557602055" duration="2986000" />
       <workItem from="1665561124806" duration="629000" />
       <workItem from="1666174540562" duration="3777000" />
-      <workItem from="1666846559644" duration="1176000" />
+      <workItem from="1666846559644" duration="1461000" />
     </task>
     <servers />
   </component>

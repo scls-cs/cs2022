@@ -7,7 +7,7 @@ Problem Set 5
 
 Create a function which takes two strings(P1 and P2), as arguments and returns a string stating the winner in a game of Rock, Paper, Scissors.
 
-Each argument will contain a single string:"Rock","Paper", or "Scissors". Return the winner according to the following rules:
+Each argument will contain a single string: "Rock", "Paper", or "Scissors". Return the winner according to the following rules:
 
 * Rock beats Scissors
 * Scissors beats Paper

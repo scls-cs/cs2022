@@ -49,7 +49,7 @@ The parameters and return value of the function should be like:
 
 .. code-block:: python
 
-    checkLeapYear(1000) -> False
+    checkLeapYear(1000) -> True
 
     checkLeapYear(1600) -> True
 

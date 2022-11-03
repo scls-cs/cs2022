@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>if &mdash; SCLS CS2022  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="数学函数" href="../function/math.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> SCLS CS2022
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Python介绍</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/first_program.html">走近Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/variable.html">变量与数据类型</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">函数</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../function/function.html">引入函数</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function/string.html">字符串</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function/math.html">数学函数</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">条件判断</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">if</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">逻辑代数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">比较运算符</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">数学运算与函数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">字符串函数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">课件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">作业</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SCLS CS2022</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>if</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/condition/if.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="if">
+<h1>if<a class="headerlink" href="#if" title="Permalink to this heading"></a></h1>
+<section id="id1">
+<h2>逻辑代数<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h2>
+<p>1854年，英国数学家乔治.布尔（George Boole）出版了The Laws of Thought，这本书中他提出了逻辑代数的概念。逻辑代数只包含两个数值：</p>
+<ul class="simple">
+<li><p>False</p></li>
+<li><p>True</p></li>
+</ul>
+<p>逻辑代数的提出诞生了一门新的学科：数理逻辑。这门学科对现代计算机的发展具有决定性的意义。人们为了纪念布尔，逻辑代数又被称作布尔代数，也就是我们已经在前面学过的的布尔值。</p>
+<p>布尔表达式（boolean expression）是值为布尔类型（True和False）的表达式。关于数据类型，你可以回顾 <a class="reference internal" href="../python_intro/variable.html#variable"><span class="std std-ref">变量与数据类型</span></a> 这一节。</p>
+</section>
+<section id="id2">
+<h2>比较运算符<a class="headerlink" href="#id2" title="Permalink to this heading"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">age</span> <span class="o">=</span> <span class="mi">18</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">age</span> <span class="o">==</span> <span class="mi">18</span><span class="p">)</span>    <span class="c1">#True</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="o">+</span><span class="mi">1</span> <span class="o">==</span> <span class="mi">18</span><span class="p">)</span>  <span class="c1">#False</span>
+</pre></div>
+</div>
+<p>上一段代码中，age == 18就是一个布尔表达式。翻译成普通话就是：age变量的值等于18吗？这个问题只有两种答案：真或者假。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>==是判断符号两边是否相等，=是将右边的值赋给左边变量。</p>
+</div>
+<p>除了==以外，还有一些运算符也用来构成布尔表达式，例如&gt;，&lt;，&gt;=, &lt;=，这些符号叫做比较运算符（comparison operator），负责比较符号两边值的大小。运算结果也是布尔值。</p>
+<p>用!=来判断符号两边的值是否不相等。</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">grade</span> <span class="o">=</span> <span class="mi">59</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">grade</span> <span class="o">!=</span> <span class="mi">60</span><span class="p">)</span>    <span class="c1">#True</span>
+</pre></div>
+</div>
+</section>
+<section id="id3">
+<h2>数学运算与函数<a class="headerlink" href="#id3" title="Permalink to this heading"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">base</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1000</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1000</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="mi">10</span><span class="o">%</span><span class="mi">3</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id4">
+<h2>字符串函数<a class="headerlink" href="#id4" title="Permalink to this heading"></a></h2>
+<p>除了数值外，字符串也可以比较大小。字符串是按字符逐个进行比较的。如果两个字符串含有完全相同的字符，那么这两个字符串的值相等。</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">str1</span> <span class="o">=</span> <span class="s2">&quot;Hi&quot;</span>
+<span class="n">str2</span> <span class="o">=</span> <span class="s2">&quot;Hi&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">str1</span> <span class="o">==</span> <span class="n">str2</span><span class="p">)</span>    <span class="c1">#True</span>
+</pre></div>
+</div>
+<p>如果逐个字符比较的过程中，发现两个字符不一样，那么就会比较字符的Unicode。哪个字符的Unicode大，该字符所对应的字符串的值就更大。</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">s1</span> <span class="o">=</span> <span class="s2">&quot;cat&quot;</span>
+<span class="n">s2</span> <span class="o">=</span> <span class="s2">&quot;cup&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">s1</span> <span class="o">&lt;</span> <span class="n">s2</span><span class="p">)</span>    <span class="c1">#True, since the unicode of a is less than u</span>
+</pre></div>
+</div>
+</section>
+<section id="id5">
+<h2>课件<a class="headerlink" href="#id5" title="Permalink to this heading"></a></h2>
+<p><a class="reference download internal" download="" href="../_downloads/f3a3b2e8b081225cd757069ae8ac54d2/%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD.pptx"><code class="xref download docutils literal notranslate"><span class="pre">条件判断</span></code></a>.</p>
+</section>
+<section id="id6">
+<h2>作业<a class="headerlink" href="#id6" title="Permalink to this heading"></a></h2>
+<p>完成 <a class="reference internal" href="hw4.html#hw4"><span class="std std-ref">Problem Set 4</span></a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../function/math.html" class="btn btn-neutral float-left" title="数学函数" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Derek.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

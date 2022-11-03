@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>if-else &mdash; SCLS CS2022  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="if-else" href="logical-operator.html" />
+    <link rel="prev" title="if" href="if.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> SCLS CS2022
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Python介绍</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/first_program.html">走近Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/variable.html">变量与数据类型</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">函数</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../function/function.html">引入函数</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function/string.html">字符串</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function/math.html">数学函数</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">条件判断</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="if.html">if</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">if-else</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">双分支语句</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#if">if嵌套</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">课件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">作业</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="logical-operator.html">if-else</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SCLS CS2022</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>if-else</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/condition/if-else.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="if-else">
+<h1>if-else<a class="headerlink" href="#if-else" title="Permalink to this heading"></a></h1>
+<section id="id1">
+<h2>双分支语句<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h2>
+<p>条件判断语句（或if语句）可以让程序根据条件是否满足来做判断/决策。有时候你会希望程序可以做更多的决策，如果条件满足，就去做事情A；但如果条件不满足，就不去做事情A而去做事情B。Python中这种类型的决策用if-else语句来实现。</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">if</span><span class="p">(</span><span class="n">expression</span><span class="p">):</span>
+    <span class="n">A</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">B</span>
+</pre></div>
+</div>
+<p>如果条件成立，Python解释器会执行A，而会跳过B不执行；反之条件不成立，就会跳过A而只执行B。</p>
+<p>罗伯特.弗罗斯特有一首诗，“黄色的树林里分出两条路，可惜我不能同时去涉足。”这首诗浪漫而深刻的揭示了if-else语句的特点：A和B有且只有一个会被执行。if-else语句又被称为双分支语句。条件就是岔路口，程序根据条件的真假来决定走哪个方向。是不是很形象呢？</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>和if语句一样，if-else语句也需要遵守缩进规则。</p>
+</div>
+</section>
+<section id="if">
+<h2>if嵌套<a class="headerlink" href="#if" title="Permalink to this heading"></a></h2>
+<p>if语句可以嵌套在另一个if语句中。这个时候else与哪一个if进行匹配呢？else与同一层次中，最近的那个if进行匹配。</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">if</span><span class="p">(</span><span class="n">num</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">):</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">num</span><span class="o">%</span><span class="mi">2</span><span class="o">==</span><span class="mi">0</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;A&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;B&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">message</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">a</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">b</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">):</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;X&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Y&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">b</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">):</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Y&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Z&quot;</span><span class="p">)</span>
+
+<span class="n">message</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span> <span class="c1">#print two lines of &quot;Y&quot;</span>
+</pre></div>
+</div>
+<p>解一元二次方程</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="k">def</span> <span class="nf">solve</span><span class="p">():</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter coefficient a: &quot;</span><span class="p">))</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter coefficient b: &quot;</span><span class="p">))</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter coefficient c: &quot;</span><span class="p">))</span>
+
+    <span class="n">delta</span> <span class="o">=</span> <span class="n">b</span><span class="o">*</span><span class="n">b</span><span class="o">-</span><span class="mi">4</span><span class="o">*</span><span class="n">a</span><span class="o">*</span><span class="n">c</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">a</span><span class="o">!=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">delta</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="n">x1</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="n">b</span><span class="o">+</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">delta</span><span class="p">))</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">a</span><span class="p">)</span>
+            <span class="n">x2</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="n">b</span><span class="o">-</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">delta</span><span class="p">))</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">a</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;No real roots&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="o">-</span><span class="n">c</span><span class="o">/</span><span class="n">b</span><span class="p">)</span>
+
+<span class="n">solve</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="id2">
+<h2>课件<a class="headerlink" href="#id2" title="Permalink to this heading"></a></h2>
+<p><a class="reference download internal" download="" href="../_downloads/e55f4a65452aa4309fa8d09bf682f4b4/%E5%8F%8C%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84.pptx"><code class="xref download docutils literal notranslate"><span class="pre">if-else</span></code></a>.</p>
+</section>
+<section id="id3">
+<h2>作业<a class="headerlink" href="#id3" title="Permalink to this heading"></a></h2>
+<p>完成 <a class="reference internal" href="hw5.html#hw5"><span class="std std-ref">Problem Set 5</span></a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="if.html" class="btn btn-neutral float-left" title="if" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="logical-operator.html" class="btn btn-neutral float-right" title="if-else" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Derek.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

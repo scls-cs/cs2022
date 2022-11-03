@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problem Set 5 &mdash; SCLS CS2022  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> SCLS CS2022
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Python介绍</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/first_program.html">走近Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/variable.html">变量与数据类型</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">函数</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../function/function.html">引入函数</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function/string.html">字符串</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function/math.html">数学函数</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">条件判断</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="if.html">if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="if-else.html">if-else</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logical-operator.html">if-else</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SCLS CS2022</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Problem Set 5</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/condition/hw5.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="problem-set-5">
+<span id="hw5"></span><h1>Problem Set 5<a class="headerlink" href="#problem-set-5" title="Permalink to this heading"></a></h1>
+<section id="rock-paper-scissors">
+<h2>1. Rock, Paper, Scissors<a class="headerlink" href="#rock-paper-scissors" title="Permalink to this heading"></a></h2>
+<p>Create a function which takes two strings(P1 and P2), as arguments and returns a string stating the winner in a game of Rock, Paper, Scissors.</p>
+<p>Each argument will contain a single string: “Rock”, “Paper”, or “Scissors”. Return the winner according to the following rules:</p>
+<ul class="simple">
+<li><p>Rock beats Scissors</p></li>
+<li><p>Scissors beats Paper</p></li>
+<li><p>Paper beats Rock</p></li>
+</ul>
+<p>The parameters and return value of the function should be like:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>rps(“Rock”, “Paper”) -&gt; “The winner is P2”
+
+rps(“Scissors”, “Paper”) -&gt; “The winner is P1”
+
+rps(“Paper”, “Paper”) -&gt; “It’s a draw”
+</pre></div>
+</div>
+<p>Part of the method might be like this:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">rps</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span> <span class="n">s2</span><span class="p">):</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">s1</span><span class="o">==</span><span class="n">s2</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;It is a draw&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">s1</span> <span class="o">==</span> <span class="s2">&quot;Rock&quot;</span><span class="p">):</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">s2</span> <span class="o">==</span> <span class="s2">&quot;Scissors&quot;</span><span class="p">):</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;First player wins&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Second player wins&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="leap-year">
+<h2>2. Leap Year<a class="headerlink" href="#leap-year" title="Permalink to this heading"></a></h2>
+<p>Write a function checkLeapYear(year) to determine is the year is a leap year or not. The definition of the leap year is this:</p>
+<p><a class="reference external" href="https://blog.csdn.net/shaier/article/details/2034196">https://blog.csdn.net/shaier/article/details/2034196</a></p>
+<p>注：”世纪年”就是能被100整除的年份。</p>
+<p>The parameters and return value of the function should be like:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">checkLeapYear</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">True</span>
+
+<span class="n">checkLeapYear</span><span class="p">(</span><span class="mi">1600</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">True</span>
+
+<span class="n">checkLeapYear</span><span class="p">(</span><span class="mi">1900</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">False</span>
+
+<span class="n">checkLeapYear</span><span class="p">(</span><span class="mi">2008</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">True</span>
+
+<span class="n">checkLeapYear</span><span class="p">(</span><span class="mi">2013</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">False</span>
+</pre></div>
+</div>
+</section>
+<section id="submit">
+<h2>Submit:<a class="headerlink" href="#submit" title="Permalink to this heading"></a></h2>
+<p>Put all your work into one python file, and share your project link via 钉钉作业本。Please submit by Oct 30th, 22PM.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Derek.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

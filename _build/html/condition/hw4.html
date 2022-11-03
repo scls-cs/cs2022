@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problem Set 4 &mdash; SCLS CS2022  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> SCLS CS2022
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Python介绍</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/first_program.html">走近Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/variable.html">变量与数据类型</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">函数</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../function/function.html">引入函数</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function/string.html">字符串</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function/math.html">数学函数</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">条件判断</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="if.html">if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="if-else.html">if-else</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logical-operator.html">if-else</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SCLS CS2022</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Problem Set 4</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/condition/hw4.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="problem-set-4">
+<span id="hw4"></span><h1>Problem Set 4<a class="headerlink" href="#problem-set-4" title="Permalink to this heading"></a></h1>
+<section id="try-it-out">
+<h2>1. Try it out<a class="headerlink" href="#try-it-out" title="Permalink to this heading"></a></h2>
+<p>Given the following programs, first try to predict the results. Then write the programs to your editor. Run it, observe the results, and see if it matches your prediction.</p>
+<p>Typing by yourself if highly recommended, but copy and paste it is also fine as well.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">regularPrice</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">onClearance</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">hasCoupon</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">finalPrice</span> <span class="o">=</span> <span class="n">regularPrice</span>
+<span class="k">if</span><span class="p">(</span><span class="n">onClearance</span><span class="p">):</span>
+    <span class="n">finalPrice</span> <span class="o">=</span> <span class="n">finalPrice</span> <span class="o">-</span> <span class="n">finalPrice</span> <span class="o">*</span> <span class="mf">0.25</span>
+<span class="k">if</span><span class="p">(</span><span class="n">hasCoupon</span><span class="p">):</span>
+    <span class="n">finalPrice</span> <span class="o">=</span> <span class="n">finalPrice</span> <span class="o">-</span> <span class="mf">5.0</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">finalPrice</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&lt;</span> <span class="mi">7</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">x</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">1</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="function-with-if-statement">
+<h2>2. Function with if statement<a class="headerlink" href="#function-with-if-statement" title="Permalink to this heading"></a></h2>
+<p>Write the following functions to your editor. Describe what each of the functions does, which you will add it besides the function as comment using #.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">getGPA</span><span class="p">(</span><span class="n">grade</span><span class="p">):</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">grade</span> <span class="o">&gt;</span> <span class="mi">90</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;A&#39;</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">grade</span> <span class="o">&gt;</span> <span class="mi">80</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;B&#39;</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">grade</span> <span class="o">&gt;</span> <span class="mi">70</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;C&#39;</span>
+    <span class="k">return</span> <span class="s1">&#39;D&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">magic_string</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="n">s1</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">s2</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span><span class="p">:]</span>
+    <span class="k">return</span> <span class="n">s1</span> <span class="o">==</span> <span class="n">s2</span>
+</pre></div>
+</div>
+</section>
+<section id="write-your-own-function">
+<h2>3. Write your own function<a class="headerlink" href="#write-your-own-function" title="Permalink to this heading"></a></h2>
+<section id="distance-ii">
+<h3>Distance II<a class="headerlink" href="#distance-ii" title="Permalink to this heading"></a></h3>
+<p>In <a class="reference internal" href="../function/hw3.html#distance"><span class="std std-ref">Distance</span></a>, if the line of two points is vertical, the program will crash since the slope would be infinity. Modify your program so that it could print the correct output without crashing.</p>
+</section>
+<section id="solve-ii">
+<h3>Solve II<a class="headerlink" href="#solve-ii" title="Permalink to this heading"></a></h3>
+<p>In <a class="reference internal" href="../function/hw3.html#solve-equation"><span class="std std-ref">Solve Equation</span></a>, it is not required to check the delta, as well as the first coefficient. Modify the program so that if could print the correct output even if the a==0, or delta&lt;0.</p>
+</section>
+<section id="narcissistic-number">
+<h3>Narcissistic Number<a class="headerlink" href="#narcissistic-number" title="Permalink to this heading"></a></h3>
+<p><strong>Narcissistic Numbers</strong> are defined as follows: An n-digit number is narcissistic if the sum of its digits to the nth power equal the original number. For example with 3 digits, say I choose the number 153: <span class="math notranslate nohighlight">\(153 = 1^{3} + 5^{3} + 3^{3}\)</span>. So 153 is a Narcissistic Number.</p>
+<p>Write a function called check(), to determine if a 3-digit number which user input is a Narcissistic Number. For example:</p>
+<ul class="simple">
+<li><p>input: 153</p></li>
+<li><p>output: “153 is a Narcissistic Number”</p></li>
+<li><p>input: 165</p></li>
+<li><p>output: “165 is not a Narcissistic Number”</p></li>
+</ul>
+</section>
+</section>
+<section id="submit">
+<h2>Submit:<a class="headerlink" href="#submit" title="Permalink to this heading"></a></h2>
+<p>Put all your work into one python file, and share your project link via 钉钉作业本。Please submit by Oct 23th, 22PM.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Derek.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

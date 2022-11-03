@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>字符串 &mdash; SCLS CS2022  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="数学函数" href="math.html" />
+    <link rel="prev" title="引入函数" href="function.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> SCLS CS2022
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Python介绍</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/first_program.html">走近Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python_intro/variable.html">变量与数据类型</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">函数</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="function.html">引入函数</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">字符串</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">文本</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#string-concatenation">连接两个字符串(String Concatenation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">可以对字符串做什么？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">字符串取字符</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">截取字符串</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">寻找子字符串</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hello-name">函数与字符串</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">课件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">作业</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="math.html">数学函数</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SCLS CS2022</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>字符串</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/function/string.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>字符串<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h1>
+<section id="id2">
+<h2>文本<a class="headerlink" href="#id2" title="Permalink to this heading"></a></h2>
+<p>字符串是一种重要的数据类型。在编程语言中，我们通常用**字符串**来表示文本数据，例如一个句子、一个段落、一首诗……字符串用单引号或者双引号括起来。</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">word</span> <span class="o">=</span> <span class="s2">&quot;Bye&quot;</span>
+
+<span class="n">sentence</span> <span class="o">=</span> <span class="s2">&quot;Good morning!&quot;</span>
+
+<span class="n">paragraph</span> <span class="o">=</span> <span class="s2">&quot;It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way--in short, the period was so far like the present period that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.&quot;</span>
+</pre></div>
+</div>
+</section>
+<section id="string-concatenation">
+<h2>连接两个字符串(String Concatenation)<a class="headerlink" href="#string-concatenation" title="Permalink to this heading"></a></h2>
+<p>可以使用+将两个字符串连接起来：</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">start</span> <span class="o">=</span> <span class="s2">&quot;Python &quot;</span>
+<span class="n">middle</span> <span class="o">=</span> <span class="s2">&quot;Rules &quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">start</span> <span class="o">+</span> <span class="n">middle</span> <span class="o">+</span> <span class="s2">&quot;The World! &quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Python中不支持将字符串和数字直接进行连接。如果你想要这么做，你需要先将数字转化为字符串。</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">first</span> <span class="o">=</span> <span class="s2">&quot;This year is &quot;</span>
+<span class="n">year</span> <span class="o">=</span> <span class="mi">2022</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">first</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">year</span><span class="p">)</span>    <span class="c1">#将数字转化为字符串</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id3">
+<h2>可以对字符串做什么？<a class="headerlink" href="#id3" title="Permalink to this heading"></a></h2>
+<p>你可以把字符串想象成排成一列的字符。每个字符有各自对应的编号：第一个字符编号为0，第二个字符编号为1…. 最后一个字符的编号最大。</p>
+<a class="reference internal image-reference" href="../_images/str.png"><img alt="../_images/str.png" src="../_images/str.png" style="width: 400px;" /></a>
+<p>从0开始编号可能会让有些同学不太舒服，毕竟我们习惯从1开始计数。但在99%的程序语言里，元素的位置，或者索引(index)都是从0开始的。</p>
+<p>Python为字符串提供了很多函数，例如len(x)负责返回字符串x所包含的字符个数，包含空格和各类标点符号：</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;Cat&quot;</span>
+<span class="n">y</span> <span class="o">=</span> <span class="s2">&quot;Hi there!&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>    <span class="c1">#output: 3</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>    <span class="c1">#output: 9</span>
+</pre></div>
+</div>
+</section>
+<section id="id4">
+<h2>字符串取字符<a class="headerlink" href="#id4" title="Permalink to this heading"></a></h2>
+<p>可以通过索引来获取字符。知道字符串名字以后，在方括号[ ]中使用索引即可访问对应的字符，例如：</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">vowel</span> <span class="o">=</span> <span class="s2">&quot;aeiou&quot;</span>
+<span class="n">first</span> <span class="o">=</span> <span class="n">vowel</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The first vowel letter is&quot;</span><span class="p">,</span> <span class="n">first</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>问：字符串与字符有什么区别？</p>
+<p>答：Python中字符其实就是字符串。更准确点说，字符是长度为1的字符串。</p>
+</div>
+</section>
+<section id="id5">
+<h2>截取字符串<a class="headerlink" href="#id5" title="Permalink to this heading"></a></h2>
+<p>使用[]除了可以获取单个字符外，还可以指定一个范围来获取多个字符，也就是一个子串或者片段，具体格式为：</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">strname</span><span class="p">[</span><span class="n">start</span> <span class="p">:</span> <span class="n">end</span> <span class="p">:</span> <span class="n">step</span><span class="p">]</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>start: 截取片段开始字符的索引</p></li>
+<li><p>end: 截取片段结束字符的索引，但该索引处字符不会被截取。</p></li>
+<li><p>step：表示从start索引开始，每个step个字符获取一个字符，直到end所在处的字符。也可以不指定step的值，如果不指定则step的默认值为1。</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">wow</span> <span class="o">=</span> <span class="s2">&quot;Oh My God!&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">wow</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">9</span><span class="p">])</span>    <span class="c1">#output: &quot;My God&quot;</span>
+</pre></div>
+</div>
+<p>你也可以只指定截取的开始索引，这样就会从该字符一直截取到字符串末尾：例如：</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">greetings</span> <span class="o">=</span> <span class="s2">&quot;Hi there!&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">greetings</span><span class="p">[</span><span class="mi">3</span><span class="p">:])</span>      <span class="c1">#output: &quot;there!&quot;</span>
+</pre></div>
+</div>
+</section>
+<section id="id6">
+<h2>寻找子字符串<a class="headerlink" href="#id6" title="Permalink to this heading"></a></h2>
+<p>单词”welcome”首次出现在文本的什么位置？</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">txt</span> <span class="o">=</span> <span class="s2">&quot;Hello, welcome to my world.&quot;</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">txt</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;welcome&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>如果没有找到子字符串，则find()返回-1。</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">txt</span> <span class="o">=</span> <span class="s2">&quot;Hello, welcome to my world.&quot;</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">txt</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;Welcome&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="hello-name">
+<span id="id7"></span><h2>函数与字符串<a class="headerlink" href="#hello-name" title="Permalink to this heading"></a></h2>
+<p>可以用函数对字符串进行操作：</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">return</span> <span class="s2">&quot;Hello &quot;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s2">&quot;!&quot;</span>
+</pre></div>
+</div>
+</section>
+<section id="id8">
+<h2>课件<a class="headerlink" href="#id8" title="Permalink to this heading"></a></h2>
+<p><a class="reference download internal" download="" href="../_downloads/1628b8d95acb46feebe53f9302087b09/%E5%AD%97%E7%AC%A6%E4%B8%B2.pptx"><code class="xref download docutils literal notranslate"><span class="pre">字符串</span></code></a>.</p>
+</section>
+<section id="id9">
+<h2>作业<a class="headerlink" href="#id9" title="Permalink to this heading"></a></h2>
+<p>完成 <a class="reference internal" href="hw2.html#hw2"><span class="std std-ref">Problem Set 1</span></a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="function.html" class="btn btn-neutral float-left" title="引入函数" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="math.html" class="btn btn-neutral float-right" title="数学函数" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Derek.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

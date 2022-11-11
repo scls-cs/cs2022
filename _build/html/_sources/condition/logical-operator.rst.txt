@@ -136,6 +136,21 @@ not的真值表：
         return (year%400==0) or (year%100!=0 and year%4==0)
 
 
+.. thebe-precell-button:: Custom button text (defaults to "Activate")
+
+.. code-block:: python
+  :class: thebe
+
+  a = 1
+  b = 2
+  c = a + b
+  print(c)
+
+  Standalone launch button:
+
+  .. thebe-button:: Custom buttom text (defaults to "Run code")
+
+
 
 课件
 ----

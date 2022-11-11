@@ -2,10 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/f41678f7c3e63351945b42fb7de7aba3/base.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/global.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/conf.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/problog_book_template.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/test/Unit4-Iteration/topic-4-2-for-loops.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/ForLoopFlow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/codingExercise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/compareForAndWhile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/exercise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/groupwork.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/loopAppInv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/time90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/test/Unit4-Iteration/topic-4-2-for-loops.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sphinx_design_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sphinx_design_static/design-tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/CSAwesomeLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/A_Taylor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/B_Hickerson.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/C_De_Lira.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/C_Mbayo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/D_Deinde-Smith.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/G_Opoku-Boateng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/J_Gilbert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/L_Diaz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/L_Morales.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/L_Vocos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/M_Rodriguez.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/Interviewees/N_Gaskins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/algorithmVideo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/arch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/blockly1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/blockly2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/codeVideo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/codingExercise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/custom-csawesome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/exercise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/groupwork.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/jquery-3.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/metalLion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/run-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/sphinx-thebe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/sphinx-thebe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/time45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/time90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/turtleForwardLeftForward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/turtleTurnForwardRightForward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/videoStart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/test/Unit4-Iteration/topic-4-2-for-loops.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/conf.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_toc.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problog_book_template.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/condition/hw6.rst" beforeDir="false" afterPath="$PROJECT_DIR$/condition/hw6.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/hw4.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw4.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/hw5.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw5.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/hw6.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw6.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/if-else.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/if-else.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/if.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/if.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/logical-operator.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/logical-operator.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/function.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/function.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/hw1.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/hw1.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/hw2.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/hw2.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/hw3.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/hw3.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/math.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/math.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/string.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/string.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/index.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/python_intro/first_program.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/first_program.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/python_intro/test.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/test.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/python_intro/variable.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/variable.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/.buildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/.buildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/condition/logical-operator.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/condition/logical-operator.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/badge_only.css" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/css/badge_only.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/doctools.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/doctools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/documentation_options.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/documentation_options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/language_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/language_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/searchtools.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/searchtools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/hw4.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/hw4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/hw5.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/hw5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/hw6.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/hw6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/if-else.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/if.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/if.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/logical-operator.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/logical-operator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/function.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/function.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/hw1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/hw1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/hw2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/hw2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/hw3.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/hw3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/math.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/string.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/string.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/python_intro/first_program.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/python_intro/first_program.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/python_intro/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/python_intro/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/python_intro/variable.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/python_intro/variable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/condition/logical-operator.rst" beforeDir="false" afterPath="$PROJECT_DIR$/condition/logical-operator.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +173,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="900" />
@@ -92,7 +203,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -132,13 +245,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/condition" />
@@ -172,6 +286,11 @@
       <workItem from="1666846559644" duration="2005000" />
       <workItem from="1666935826666" duration="579000" />
       <workItem from="1667454749155" duration="2029000" />
+      <workItem from="1667952331599" duration="395000" />
+      <workItem from="1667956565067" duration="587000" />
+      <workItem from="1667959120804" duration="586000" />
+      <workItem from="1668136761702" duration="2391000" />
+      <workItem from="1668151318146" duration="396000" />
     </task>
     <servers />
   </component>
@@ -202,6 +321,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

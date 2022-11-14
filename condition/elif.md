@@ -87,7 +87,7 @@ if, else和elif可以嵌套起来一起使用，称为条件嵌套(nested condit
 条件嵌套的关键是缩进，缩进决定了不同分支的逻辑层次。
 
 ```{code-cell} python3
-def checkBMI:
+def checkBMI(bmi):
   if(bmi < 18.5):
       print("Too thin")
   else:

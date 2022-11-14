@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/condition/elif.md" beforeDir="false" afterPath="$PROJECT_DIR$/condition/elif.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/condition/logical_operator.md" beforeDir="false" afterPath="$PROJECT_DIR$/condition/logical_operator.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +219,7 @@
       <workItem from="1666935826666" duration="579000" />
       <workItem from="1667454749155" duration="2029000" />
       <workItem from="1668416319778" duration="3376000" />
-      <workItem from="1668423984117" duration="531000" />
+      <workItem from="1668423984117" duration="1694000" />
     </task>
     <servers />
   </component>
@@ -250,6 +250,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/_build/html/condition/elif.html</url>
+          <line>65</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

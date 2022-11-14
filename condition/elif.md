@@ -39,7 +39,6 @@ else:
 ```
 如果cond1成立，就执行A；如果cond1不成立，就再看cond2是否成立。如果cond2成立，那么执行B；否则再看看cond3是否成立...如果所有条件都不成立，那么就执行X。
 
-## ex2 ##
 ```{code-cell} python3
 grade = 75
 if(grade >= 90):
@@ -99,3 +98,39 @@ def checkBMI(bmi):
 ```
 上面这段代码有两个条件结构：第一个条件结构包含if-else两个分支；第二个条件结构嵌套在else分支里，包含四个分支。
 
+## Exercise ##
+
+Ex1. 某地按照阶梯电价计算电费，计算规则如下：
+```{list-table}
+   :widths: 25 25  50
+   :header-rows: 1
+
+   * - 类别
+     - 用电量
+     - 电价标准
+   * - 一档
+     - 1-240（含）
+     - 0.48
+   * - 二档
+     - 241-400（含）
+     - 0.54
+   * - 三档
+     - 400以上
+     - 0.79
+```
+请编写函数来实现这一功能。
+
+```{code-cell} python3
+def getBill(degrees):
+    cost = 0
+    if(degrees <= 240):
+        cost = degrees*0.48
+    #add code here
+    
+    return cost
+
+
+print(getBill(200)) #96.0
+print(getBill(350)) #174.6 
+print(getBill(500)) #280.6
+```

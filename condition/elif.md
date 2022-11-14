@@ -16,7 +16,7 @@ kernelspec:
 # 多分支语句 #
 
 :::{note}
-这一节是基于 [*Jupyter Notebook*]来生成，你可以点击右上角的livecode进入编程模式。
+这一节是基于 [*Jupyter Notebook*]来生成，你可以点击右上角的Live Code进入编程模式。
 :::
 
 [*Jupyter Notebook*]: https://jupyter.org/about

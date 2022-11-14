@@ -2,9 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_toc.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/condition/logical_operator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problog_book_template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CS2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS2022.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/condition/hw6.rst" beforeDir="false" afterPath="$PROJECT_DIR$/condition/hw6.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/condition/logical-operator.rst" beforeDir="false" afterPath="$PROJECT_DIR$/condition/logical-operator.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/hw4.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw4.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/hw5.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw5.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/hw6.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw6.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/if-else.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/if-else.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/if.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/if.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/condition/logical-operator.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/condition/logical-operator.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/environment.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/function.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/function.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/hw1.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/hw1.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/hw2.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/hw2.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/hw3.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/hw3.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/math.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/math.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/function/string.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/function/string.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/index.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/python_intro/first_program.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/first_program.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/python_intro/test.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/test.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/python_intro/variable.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/variable.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/.buildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/.buildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/condition/hw4.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/condition/hw5.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/condition/hw6.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/condition/if-else.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/condition/if.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/condition/logical-operator.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/function/function.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/function/hw1.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/function/hw2.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/function/hw3.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/function/math.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/function/string.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/python_intro/first_program.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/python_intro/test.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/python_intro/variable.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/_sphinx_javascript_frameworks_compat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/badge_only.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/Roboto-Slab-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/Roboto-Slab-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/Roboto-Slab-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/Roboto-Slab-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/lato-bold-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/lato-bold-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/lato-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/lato-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/lato-normal-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/lato-normal-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/lato-normal.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/fonts/lato-normal.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/doctools.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/doctools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/documentation_options.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/documentation_options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/jquery-3.6.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/js/badge_only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/js/html5shiv-printshiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/js/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/language_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/language_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/searchtools.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_static/searchtools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/hw4.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/hw4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/hw5.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/hw5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/hw6.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/hw6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/if-else.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/if.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/if.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/condition/logical-operator.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/condition/logical-operator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/function.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/function.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/hw1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/hw1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/hw2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/hw2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/hw3.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/hw3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/math.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/function/string.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/function/string.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/python_intro/first_program.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/python_intro/first_program.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/python_intro/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/python_intro/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/python_intro/variable.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/python_intro/variable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +123,17 @@
     <findStrings>
       <find>cs2022</find>
     </findStrings>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +165,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="900" />
@@ -92,7 +195,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -132,19 +237,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/hutong/Desktop/2022-2023 S1/IT/cs2022/src",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/condition" />
       <recent name="$PROJECT_DIR$/function" />
       <recent name="$PROJECT_DIR$/python_intro" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="CS2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -1,0 +1,28 @@
+format: jb-book
+root: src/problog_book_template
+
+parts:
+- caption: First Python Program
+  chapters:
+  - file: python_intro/first_program
+    title: '走近Python'
+  - file: python_intro/variable
+    title: '变量与数据类型'
+
+- caption: Function
+  chapters:
+  - file: function/function
+    title: '引入函数'
+  - file: function/string
+    title: '字符串'
+  - file: function/math
+    title: '数学函数'
+
+- caption: Conditional
+  chapters:
+  - file: condition/if
+    title: 'if'
+  - file: condition/if-else
+    title: 'if-else'
+  - file: condition/logical_operator
+    title: '逻辑运算符'

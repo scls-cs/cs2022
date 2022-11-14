@@ -134,3 +134,18 @@ print(getBill(200)) #96.0
 print(getBill(350)) #174.6 
 print(getBill(500)) #280.6
 ```
+ex2. Your cell phone rings. Return true if you should answer it. Normally you answer, except in the morning you only answer if it is your mom calling. In all cases, if you are asleep, you do not answer.
+
+answerCell(false, false, false) → true
+answerCell(false, false, true) → false
+answerCell(true, false, false) → false
+
+```{code-cell} python3
+def answerCell(isMorning, isMom, isAsleep):
+   #add code here
+
+
+print(answerCell(false, false, false)) # true
+print(answerCell(false, false, true)) # false
+print(answerCell(true, false, false)) # false
+```

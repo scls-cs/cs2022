@@ -32,8 +32,8 @@ html_static_path = ['_static']
 html_theme = 'sphinx_book_theme'
 html_theme_options = {'search_bar_text': 'Search this book...',
                       'launch_buttons': {'notebook_interface': 'classic','thebe': True}, 'path_to_docs': '',
-                      'repository_url':'https://github.com/simply-logical/problog-book'
-                          '-template', 'repository_branch': 'master',
+                      'repository_url':'https://github.com/scls-cs/cs2022',
+                      'repository_branch': 'jb',
                       'google_analytics_id': 'G-BZGV6J36FT', 'extra_navbar':
                           '', 'extra_footer': 'This book is for teaching '
                                               'Computer Science at <a '

@@ -87,17 +87,18 @@ if, else和elif可以嵌套起来一起使用，称为条件嵌套(nested condit
 条件嵌套的关键是缩进，缩进决定了不同分支的逻辑层次。
 
 ```{code-cell} python3
-if(bmi < 18.5):
-    print("Too thin")
-else:
-    if(bmi < 25):
-        print("Fit")
-    elif(bmi < 30):
-        print("Overweight")
-    elif(bmi < 40):
-        print("Obesity")
-    else:
-        print("Go to see a doctor right now.")
+def checkBMI:
+  if(bmi < 18.5):
+      print("Too thin")
+  else:
+      if(bmi < 25):
+          print("Fit")
+      elif(bmi < 30):
+          print("Overweight")
+      elif(bmi < 40):
+          print("Obesity")
+      else:
+          print("Go to see a doctor right now.")
 ```
 上面这段代码有两个条件结构：第一个条件结构包含if-else两个分支；第二个条件结构嵌套在else分支里，包含四个分支。
 

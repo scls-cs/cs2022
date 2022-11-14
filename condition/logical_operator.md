@@ -16,8 +16,7 @@ kernelspec:
 # 逻辑运算符 #
 
 :::{note}
-This page is based on the [*Jupyter Notebook*], which is a non-profit, 
-open-source project to support interactive data science and scientific computing across all programming languages.
+这一节是基于 [*Jupyter Notebook*]来生成，你可以点击右上角的livecode进入编程模式。
 :::
 
 [*Jupyter Notebook*]: https://jupyter.org/about

@@ -100,6 +100,29 @@ def checkBMI(bmi):
 
 ## Exercise ##
 
+Ex0. 程序运行后，a,b,x,y的值分别是什么？
+```python
+x = 7
+y = 4
+a = False
+b = False
+if (x > y):
+    if (x % y <= 2):
+        a = True
+        x = x + y
+    elif (x/y < 2):
+        x = x - y
+        b = True
+    else:
+        x = y + 1
+if (x < y):
+    if (y % x >= 3):
+        b = True
+        x = x - y;
+    else:
+        x = x + y
+```
+
 Ex1. 某地按照阶梯电价计算电费，计算规则如下：
 ```{list-table}
    :widths: 25 25  50

@@ -146,7 +146,7 @@ def answerCell(isMorning, isMom, isAsleep):
    return True
 
 
-print(answerCell(False, False, False)) # true
-print(answerCell(False, False, True)) # false
-print(answerCell(True, False, False)) # false
+print(answerCell(False, False, False)) # True
+print(answerCell(False, False, True)) # False
+print(answerCell(True, False, False)) # False
 ```

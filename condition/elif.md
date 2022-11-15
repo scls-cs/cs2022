@@ -143,6 +143,7 @@ answerCell(true, false, false) → false
 ```{code-cell} python3
 def answerCell(isMorning, isMom, isAsleep):
    #add code here
+   return true
 
 
 print(answerCell(false, false, false)) # true

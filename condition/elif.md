@@ -100,7 +100,7 @@ def checkBMI(bmi):
 
 ## Exercise ##
 
-Ex0. 程序运行后，a,b,x,y的值分别是什么？
+Ex0. 程序运行后，a，b，x，y的值分别是什么？
 ```python
 x = 7
 y = 4
@@ -159,9 +159,11 @@ print(getBill(500)) #280.6
 ```
 ex2. Your cell phone rings. Return true if you should answer it. Normally you answer, except in the morning you only answer if it is your mom calling. In all cases, if you are asleep, you do not answer.
 
-answerCell(False, False, False) → true
-answerCell(False, False, True) → false
-answerCell(True, False, False) → false
+answerCell(False, False, False) → True
+
+answerCell(False, False, True) → False
+
+answerCell(True, False, False) → False
 
 ```{code-cell} python3
 def answerCell(isMorning, isMom, isAsleep):

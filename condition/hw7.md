@@ -121,10 +121,10 @@ You can check the links below, or search online how to use loop and break:
 https://www.runoob.com/python/python-while-loop.html
 https://www.runoob.com/python/python-break-statement.html
 
-The part of the loop is provided.
+The part of the loop and break is provided. You can copy/paste it. 
 :::
 
-```{code-cell} python3
+```python
 
 import random
 

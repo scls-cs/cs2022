@@ -130,3 +130,6 @@ while(i<5):   #change the number 5 to the actual tries
     
 ```
 
+## Submission ##
+
+Submit the homework via 钉钉作业本 by Sunday 22PM. 

@@ -114,6 +114,13 @@ If the player failed to guess the number within 5 times, give a reasonable outpu
 :::{important}
 In order to design the game, you have to use a control structure called **loop**, so that the player could guess repetitively. 
 
+Also, you want to quit the game when player guessed the number. You need to use another command called **break**, which terminates the loop in advance.
+
+You can check the links below, or search online how to use loop and break:
+
+https://www.runoob.com/python/python-while-loop.html
+https://www.runoob.com/python/python-break-statement.html
+
 The part of the loop is provided.
 :::
 
@@ -124,7 +131,8 @@ import random
 i=0
 while(i<5):   #change the number 5 to the actual tries
   #add code here
-    
+  if(when user make a correct guess): 
+    break  
     
   i=i+1 #do not change this line
     

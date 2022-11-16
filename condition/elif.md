@@ -175,3 +175,6 @@ print(answerCell(False, False, False)) # True
 print(answerCell(False, False, True)) # False
 print(answerCell(True, False, False)) # False
 ```
+
+## 作业 ##
+[Problem Set 7](hw7.md)

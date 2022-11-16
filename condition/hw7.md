@@ -86,7 +86,7 @@ What is the lower bond of the number?
 3
 What is the upper bond of the number?
 50
-Generating random numbers between 3-50....
+Generating a random number between 3-50....
 
 How many tries for the player to win?
 5

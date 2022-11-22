@@ -28,3 +28,8 @@ parts:
     title: '逻辑运算符'
   - file: condition/elif
     title: '多分支语句'
+
+- caption: Loop
+  chapters:
+    - file: loop/while
+      title: 'While Loop'

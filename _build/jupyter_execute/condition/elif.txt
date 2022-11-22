@@ -1,0 +1,21 @@
+if(grade >= 90):
+    print("A")
+if(grade >= 80):
+    print("B")
+if(grade >=70):
+    print("C")
+if(grade >= 60):
+    print("D")
+
+def checkBMI(bmi):
+  if(bmi < 18.5):
+      print("Too thin")
+  else:
+      if(bmi < 25):
+          print("Fit")
+      elif(bmi < 30):
+          print("Overweight")
+      elif(bmi < 40):
+          print("Obesity")
+      else:
+          print("Go to see a doctor right now.")

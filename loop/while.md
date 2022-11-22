@@ -94,8 +94,17 @@ def sum(n):
 
 print(sum(10))
 ```
+Ex4：编写函数star(n)，实现打印1~n的功能.
 
-Ex4：用循环的方式编写函数f(a,b)，使函数可以返回a的b次方
+```{code-cell} python3
+def star(n):
+  print(n)
+
+star(10) # 1 2 3 4 ... 8 9 10(每行打印一个数）
+```
+
+
+Ex5：用循环的方式编写函数f(a,b)，使函数可以返回a的b次方
 
 ```{code-cell} python3
 def f(a,b):

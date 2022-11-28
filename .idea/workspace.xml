@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/condition/hw7+.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop/while.md" beforeDir="false" afterPath="$PROJECT_DIR$/loop/while.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +220,10 @@
       <workItem from="1668501727806" duration="5000" />
       <workItem from="1668577202212" duration="5473000" />
       <workItem from="1669029583879" duration="733000" />
-      <workItem from="1669075561122" duration="4059000" />
+      <workItem from="1669075561122" duration="5375000" />
+      <workItem from="1669091439962" duration="3000" />
+      <workItem from="1669104435258" duration="861000" />
+      <workItem from="1669630098339" duration="1930000" />
     </task>
     <servers />
   </component>

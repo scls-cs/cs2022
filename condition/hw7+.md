@@ -1,3 +1,20 @@
+---
+jupytext:
+    formats: md:myst
+    text_representation:
+        extension: .md
+        format_name: myst
+rise:
+    start_slideshow_at: beginning
+
+kernelspec:
+    display_name: Python 3
+    language: python
+    name: python3
+---
+
+
+
 # 部分优秀作业(PS7) #
 
 ## Quiz ##

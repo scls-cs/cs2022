@@ -9,7 +9,7 @@ rise:
 
 kernelspec:
     display_name: Python 3
-    language: python
+    language: python3
     name: python3
 ---
 

@@ -28,6 +28,8 @@ parts:
     title: '逻辑运算符'
   - file: condition/elif
     title: '多分支语句'
+  - file: condition/hw7+
+    title: '优秀作业'
 
 - caption: Loop
   chapters:

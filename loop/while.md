@@ -17,7 +17,7 @@ kernelspec:
 
 也就是说学完这章后，你就可以开始写更复杂的程序了。
 
-# while循环 #
+# While Loop I #
 
 while循环的语法如下：
 ```python

@@ -34,6 +34,6 @@ parts:
 - caption: Loop
   chapters:
     - file: loop/while
-      title: 'While Loop'
+      title: 'While Loop I'
     - file: loop/while2
       title: 'While Loop II'

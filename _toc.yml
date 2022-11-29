@@ -35,3 +35,5 @@ parts:
   chapters:
     - file: loop/while
       title: 'While Loop'
+    - file: loop/while2
+      title: 'While Loop II'

@@ -68,10 +68,10 @@ Print the square roots of the first 25 odd positive integers.
 
 ```{code-cell} python3
 import math
-def print():
+def roots():
     #add your code here
     
-print()
+roots()
 ```
 
 ## Ex4 ##

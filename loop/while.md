@@ -118,3 +118,7 @@ def f(a,b):
 print(f(2,3))   #8
 print(f(3,4))   #81
 ```
+
+## 课件 ##
+
+课件下载：{download}`Loops I <Loops.pptx>`

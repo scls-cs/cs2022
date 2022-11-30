@@ -15,7 +15,7 @@ kernelspec:
 
 # Problem Set 8 #
 
-## Warming Up ##
+## 1. Warming Up ##
 
 This program intends to print the sum of all even digits of an integer. For example, if M is 12345, it wants to print 6, which is 2+4. 
 
@@ -37,7 +37,7 @@ print(s)  //should print 20
 
 ```
 
-## Check Prime Number ##
+## 2. Check Prime Number ##
 
 A prime number is a number that is only divisible by 1 and itself. The standard method to test to
 see if a number is prime or not is to try dividing it by each number starting at 2, to see if there is any remainder or not.
@@ -63,7 +63,7 @@ while(i>0):
   i=i-1
 ```
 
-## Simulation ##
+## 3. Simulation ##
 
 One practical use of computers is that they can be used to simulate items from real life. A nice property of a simulation is that it can be done really quickly and often times is very cheap to do. Actually rolling dice a million times would take a great deal of time! But we can use a loop to easily simulate the case:
 
@@ -102,7 +102,7 @@ print("The possibility of getting face 6 is: " + str(six/1000000))
 
 Run this program and observe the results. Understanding the code is important to finish the next question.
 
-## Three Dices Problem ##
+## 4. Three Dices Problem ##
 
 
 For this program, you'll write a simulation that repeatedly rolls three 6-sided dice. You'll be calculating how often the three dice all have different values. If you've taken a discrete math or probability course (by no means required!), you may have learned that the theoretical probability of obtaining three different values is $(6*5*4/6^3 = 0.5556)$
@@ -133,7 +133,7 @@ Experimental probability: 0.5535
 
 ```
 
-## Optional: Pepys problem ##
+## 5. Optional: Pepys problem ##
 
 
 

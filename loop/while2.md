@@ -89,3 +89,7 @@ def calculate():
     
 print(calculate())
 ```
+
+## 课件 ##
+
+课件下载：{download}`Loops II <LoopsII.pptx>`

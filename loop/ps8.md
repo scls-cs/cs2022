@@ -137,7 +137,7 @@ Experimental probability: 0.5535
 
 
 
-In 1693, Samuel Pepys asked Isaac Newton which was more likely: getting at least one 1 when rolling a fair die 6 times or getting at least two 1's when rolling a fair die 12 times. Write a method that uses simulation to determine the correct answer. You need to simulate the game in multiple trials.
+In 1693, Samuel Pepys asked Isaac Newton which was more likely: getting at least one 1 when rolling a 6-sided dice 6 times or getting at least two 1's when rolling 12 times. Write a method that uses simulation to determine the correct answer. You need to simulate the game in multiple trials.
 
 
 ## Submission ##

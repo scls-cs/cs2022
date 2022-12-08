@@ -39,3 +39,5 @@ parts:
       title: 'While Loop II'
     - file: loop/ps8
       title: 'Problem Set 8'
+    - file: loop/list
+      title: 'List'

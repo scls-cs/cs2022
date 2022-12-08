@@ -1,23 +1,23 @@
 ---
 jupytext:
-	formats: md:myst
-	text_representation:
-		extension: .md
-		format_name: myst
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
 rise:
-	start_slideshow_at: beginning
+  start_slideshow_at: beginning
 
 kernelspec:
-	display_name: Python 3
-	language: python
-	name: python3
+  display_name: Python 3
+  language: python
+  name: python3
 ---
+
+# 列表 #
 
 上一章我们学习了控制结构的第一种：分支结构。这一章我们会见到控制结构的第二种，也是最后一种结构：循环结构。不管程序有多么复杂，它都可以分解为顺序结构、分支结构和循环结构。
 
 也就是说学完这章后，你就可以开始写更复杂的程序了。
-
-# 列表 #
 
 在 Python 中，列表是一种可以通过索引/下标(index)访问的元素的集合。索引是一个数字值，表示元素在列表中的位置。
 

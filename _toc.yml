@@ -41,3 +41,5 @@ parts:
       title: 'Problem Set 8'
     - file: loop/list
       title: 'List'
+    - file: loop/algorithm
+      title: 'Algorithm'

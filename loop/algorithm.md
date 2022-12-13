@@ -125,6 +125,10 @@ print(check([1,3,7,4]))	     #False
 
 ```
 
+## 课件 ##
+
+课件下载：{download}`Algorithm <Algorithm.pptx>`
+
 ## Sound ##
 
 Digital sounds can be represented as a list of integer values. The volume of a sound depends on the amplitude of each value in the sound. The amplitude of a value is its absolute value. For example, the amplitude of -20 is 20, and the amplitude of 40 is 40.

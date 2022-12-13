@@ -151,7 +151,7 @@ def isSafe(sample):
     
     
 print(isSafe([500, 450, -50, 250]))  #True
-print(check([1020, 80, -200]))	     #False
+print(isSafe([1020, 80, -200]))	     #False
 
 ```
 

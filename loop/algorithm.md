@@ -111,6 +111,12 @@ print(all_even([2, 0, 3,4]))
 
 2. 如果列表遍历结束，函数依然没有返回，则说明所有元素均符合X特征，函数返回True
 
+## 课件 ##
+
+课件下载：{download}`Algorithm <Algorithm.pptx>`
+
+## 作业 ##
+
 ### Execise ###
 问题：编写函数，判断列表是否严格单调递增。
 
@@ -125,15 +131,11 @@ print(check([1,3,7,4]))	     #False
 
 ```
 
-## 课件 ##
-
-课件下载：{download}`Algorithm <Algorithm.pptx>`
-
-## Sound ##
+### Sound ###
 
 Digital sounds can be represented as a list of integer values. The volume of a sound depends on the amplitude of each value in the sound. The amplitude of a value is its absolute value. For example, the amplitude of -20 is 20, and the amplitude of 40 is 40.
 
-### Part(a) ###
+#### Part(a) ####
 
 High level of volume can damage your hearing. Write a function **isSafe(sound)** that will determine if the amplitude of any value in the list of sound is below 1000. 
 
@@ -153,7 +155,7 @@ print(check([1020, 80, -200]))	     #False
 
 ```
 
-### Part(b) ###
+#### Part(b) ####
 
 Write a function **countNoise(sample, limit)** that will return the total number of values in a sample that were greater than limit, or less than -limit. For example, assume that the sample has been initialized with the following values:
 

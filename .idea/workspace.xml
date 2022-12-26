@@ -2,73 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/final/Image Recognition I.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/Image Recognition II.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/ascii.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/ascii_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/binary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/bridge.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/channel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/char.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/chinese_char.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/choose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/color_code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/compress.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/compressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/conf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/config.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/deep learning.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/digit_recognition.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/dot.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/drag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/ex_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/example_52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/filenotfound.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/filter.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/image filtering.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/image processing project.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/image.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/image_recognition.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/images.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/import.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/install1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/install2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/interpreter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/kiwi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/loop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/new_file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/numArEx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/opencv.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/path.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/path.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/pil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/pip.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/py.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/pycharm.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/result.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/result_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/script.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/sound.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/teapot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/test_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/test_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/timeout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/uninstall.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/version.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/version.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/win.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_toc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_toc.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/image.md" beforeDir="false" afterPath="$PROJECT_DIR$/final/image.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/pycharm.rst" beforeDir="false" afterPath="$PROJECT_DIR$/final/pycharm.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +243,7 @@
       <workItem from="1670482675754" duration="775000" />
       <workItem from="1670833196144" duration="5984000" />
       <workItem from="1670915876159" duration="790000" />
-      <workItem from="1672043636960" duration="6393000" />
+      <workItem from="1672043636960" duration="6955000" />
     </task>
     <servers />
   </component>

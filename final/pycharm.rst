@@ -6,7 +6,7 @@ PyCharm入门
 
 上学期我们主要通过网站来编写和运行Python程序。通过网站编程的好处是无需安装额外软件，可以随时随地进行程序编写。但也有不好的地方。由于网站提供的函数和工具有限，我们只能进行简单的操作。所以网站编程只适合初学者入门学习。
 
-如果我们要编写更复杂的程序，例如读取和处理图像，我们就需要更为专业的编程工具。目前世界最流行的Python编程工具是PyCharm，它是由JetBrains打造的编译工具。作为高中生，我们可以免费使用这款工具。下面是基于Mac的PyCharm安装步骤。基于Windows的安装步骤非常类似，所以以下操作步骤也适用于你。除此之外你也可以参考这个教程：`Windows版PyCharm安装 <http://c.biancheng.net/view/5804.html>`_ 。当然，你也可以咨询已经安装成功的小伙伴，比如Windows的安装过程你可以咨询张天宇和侯辰菱同学。
+如果我们要编写更复杂的程序，例如读取和处理图像，我们就需要更为专业的编程工具。目前世界最流行的Python编程工具是PyCharm，它是由JetBrains打造的编译工具。作为高中生，我们可以免费使用这款工具。下面是基于Mac的PyCharm安装步骤。基于Windows的安装步骤非常类似，所以以下操作步骤也适用于你。除此之外你也可以参考这个教程：`Windows版PyCharm安装 <http://c.biancheng.net/view/5804.html>`_ 。当然，你也可以咨询已经安装成功的小伙伴。
 
 1. 下载PyCharm
 ----
@@ -14,7 +14,7 @@ PyCharm是由JetBrains打造的编译工具。
 
 下载地址：`PyCharm <https://www.jetbrains.com/pycharm/download>`_
 
-选择Community版本并下载。
+选择Professional版本并下载。此版本有30天免费试用期，另外学生可以免费申请一年的license（强烈建议），你可以通过`Apply<https://www.jetbrains.com/shop/eform/students>`_，填写学校邮箱即可申请。
 
 
 2. 安装PyCharm
@@ -41,9 +41,7 @@ PyCharm是由JetBrains打造的编译工具。
 .. image:: python.png
   :scale: 20%
 
-下载完毕之后安装Python。在点击若干continue和agree之后，Python解释器就成功安装在我们的电脑里了。从现在开始，我们的计算机也可以读懂Python程序了（哦还差一点）。
-
-
+下载完毕之后安装Python。在点击若干continue和agree之后，Python解释器就成功安装在我们的电脑里了。从现在开始，我们的计算机也可以读懂Python程序了。
 
 4. 在PyCharm中配置Python
 -----------------------

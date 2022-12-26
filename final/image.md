@@ -37,8 +37,6 @@ kernelspec:
 ```{code-cell} python3
 import cv2
 img = cv2.imread('beach.jpeg') 
-cv2.imshow("Demo", img)
-
 
 totalCol= img.shape[1]  #image width
 totalRow= img.shape[0] #image height

@@ -46,7 +46,7 @@ parts:
 
 - caption: Final
   chapters:
-    - file: final/pycharm
+    - file: final/final_1
       title: 'PyCharm安装'
     - file: final/image
       title: 'Final Project I'

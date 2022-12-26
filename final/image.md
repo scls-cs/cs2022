@@ -76,7 +76,7 @@ def zeroBlue(img):
   img_width = img.shape[1]  
   img_height = img.shape[0] 
   for row in range(img_height):
-  for col in range(img_width):
+    for col in range(img_width):
   img[row][col][0] = 0
   return img
 

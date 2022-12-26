@@ -80,7 +80,7 @@ def zeroBlue(img):
   img_height = img.shape[0] 
   for row in range(img_height):
     for col in range(img_width):
-  img[row][col][0] = 0
+      img[row][col][0] = 0
   return img
 
 img = cv2.imread('beach.jpeg')
@@ -90,3 +90,8 @@ Image(filename='1.png')
 ```
 
 ![beach_1](1.png)
+
+1. 设计函数onlyBlue，使图片只保留蓝色，也就是将红色和绿色值全置为0。
+2. 设计函数negate，将图片像素值翻转。为了翻转图片，需要将红色值置为255-红色值，绿色值置为255-绿色值，蓝色值置为255-蓝色值。
+3. 设计函数grayscale，将图片变为灰度图，需要将像素点的三种颜色值均置为它们的平均值。
+4. [附加任务]设计fixUnderWater函数，使得海水中的鱼更容易被看到。

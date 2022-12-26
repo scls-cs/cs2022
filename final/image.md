@@ -37,14 +37,16 @@ kernelspec:
 ```{code-cell} python3
 import cv2
 img = cv2.imread('beach.jpeg') 
+cv2.imshow("Demo", img)
+
 
 totalCol= img.shape[1]  #image width
 totalRow= img.shape[0] #image height
 
 print(totalCol, totalRow) #print image width and height
 
-for i in range(totalRow):
-  for j in range(totalCol):
+for i in [0]:
+  for j in range(10):
     print(img[i,j])
 ```
 1. 鼠标旁的五个数字分别代表图片的什么信息？

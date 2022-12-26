@@ -72,6 +72,9 @@ print(img[100,100,2])    #输出图片的[100,100]处的红色值
 运行下面程序之后，
 
 ```{code-cell} python3
+import cv2
+from IPython.display import Image
+
 def zeroBlue(img):
   img_width = img.shape[1]  
   img_height = img.shape[0] 
@@ -80,10 +83,10 @@ def zeroBlue(img):
   img[row][col][0] = 0
   return img
 
-import cv2
 img = cv2.imread('beach.jpeg')
 newImage = zeroBlue(img)
 cv2.imwrite("1.png", newImage)
+Image(filename='1.png') 
 ```
 
 ![beach_1](1.png)

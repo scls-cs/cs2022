@@ -43,3 +43,8 @@ parts:
       title: 'List'
     - file: loop/algorithm
       title: 'Algorithm'
+
+- caption: Final
+  chapters:
+    - file: final/image
+      title: 'Final Project I'

@@ -33,7 +33,7 @@ kernelspec:
 
 下面是一张海滩的图片，我们用以下代码来打印图片的信息：
 
-![beach](beach.png)
+![beach](beach.jpeg)
 
 ```{code-cell} python3
 import cv2

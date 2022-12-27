@@ -44,11 +44,11 @@ totalRow= img.shape[0] #image height
 
 print(totalCol, totalRow) #print image width and height
 
-for i in [0]:
-  for j in range(10):
+for i in range(4):
+  for j in range(4):
     print(img[i,j])    #打印图片的[B,G,R]信息
 ```
-1. 这10个像素点在图片的哪个位置？
+1. 这9个像素点在图片的哪个位置？
 2. 为什么这些像素点的值都比较小？
 
 OpenCV对图像是用**BGR**（不是RGB)的方式来进行编码的。每个像素值都是一个包含三个元素列表，分别对应Blue, Green和Red。所以你如果想要获得某个位置像素点的三原色值，你也可以通过列表下标的方式来得到，例如：

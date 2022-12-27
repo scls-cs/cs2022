@@ -14,7 +14,7 @@ PyCharm是由JetBrains打造的编译工具。
 
 下载地址：`PyCharm <https://www.jetbrains.com/pycharm/download>`_
 
-选择Professional版本并下载。此版本有30天免费试用期，另外学生可以免费申请一年的license（强烈建议），你可以通过`Apply<https://www.jetbrains.com/shop/eform/students>`_，填写学校邮箱即可申请。
+选择Professional版本并下载。此版本有30天免费试用期，另外学生可以免费申请一年的license（强烈建议），你可以通过`Apply<https://www.jetbrains.com/shop/eform/students>`_ ，填写学校邮箱即可申请。
 
 
 2. 安装PyCharm

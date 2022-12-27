@@ -67,15 +67,7 @@ PyCharm是由JetBrains打造的编译工具。
 .. image:: loop.png
   :scale: 80%
 
-右上角Add configuration -> 点击左上角'+' -> 选择Python
-
-.. image:: conf.png
-  :scale: 20%
-
-.. image:: choose.png
-  :scale: 20%
-
-接下来Script path这个地方，选择我们刚刚创建的文件（比如我是loop.py)
+右上角Add configuration，在Script path这个地方，选择我们刚刚创建的文件（比如我是loop.py)
 
 .. image:: path.png
   :scale: 20%

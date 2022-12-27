@@ -54,9 +54,9 @@ PyCharm是由JetBrains打造的编译工具。
 
 1. Location这一栏是给你的项目进行命名的位置，你可以将最后的文件名改为你想要的任意文件名，例如hw1。
 
-2. 选择Previously configured interpreter, 在下拉栏中选择Python 3.10（希望它已经出现在那里了）。
+2. 选择第一个:
 
-.. image:: config.png
+.. image:: config_inter.png
   :scale: 30%
 
 点击Create，到这里我们成功了90%了。

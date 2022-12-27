@@ -48,5 +48,7 @@ parts:
   chapters:
     - file: final/pycharm
       title: 'PyCharm安装'
+    - file: final/opencv
+      title: 'OpenCV函数包安装'
     - file: final/final_1
       title: 'Final Project I'

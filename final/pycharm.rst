@@ -19,13 +19,7 @@ PyCharm是由JetBrains打造的编译工具。
 
 2. 安装PyCharm
 -------------
-双击下载后的文件，将PyCharm拖到Applications中。
-
-
-.. image:: drag.png
-   :scale: 50%
-
-选择Do not import settings
+安装可能会弹出这个窗口，选择Do not import settings
 
 .. image:: import.png
    :scale: 50%

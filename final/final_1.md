@@ -89,6 +89,8 @@ cv2.imwrite("1.png", newImage)
 Image(filename='1.png') 
 ```
 
+其中程序第二行和最后一行是为了在课程网站中展示图片而添加，在PyCharm中你需要删除这两行。
+
 ## 提交 ##
 
 下面四个任务需要自己完成并提交：

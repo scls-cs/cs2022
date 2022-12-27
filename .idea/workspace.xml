@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/final/opencv.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/terminal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/final_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/final/final_1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +242,7 @@
       <workItem from="1670482675754" duration="775000" />
       <workItem from="1670833196144" duration="5984000" />
       <workItem from="1670915876159" duration="790000" />
-      <workItem from="1672043636960" duration="10068000" />
+      <workItem from="1672043636960" duration="10446000" />
     </task>
     <servers />
   </component>

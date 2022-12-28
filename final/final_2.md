@@ -52,6 +52,8 @@ Image(filename='1.jpeg')
 1-2：设计函数mirrorHorizontal，使得图片从上向下镜像，如下图所示：
 ![mirrormotor](mirrormotor.png)
 
+你可以使用毛毛虫的图片，也可以使用{download}`红色摩托车 <redMotorcycle.jpeg>`
+
 [附加题]1-3: 左图是一座希腊神庙，由于岁月的侵蚀，神庙的顶部已经破损。设计函数fix，修复这座希腊神庙的屋顶。修复后的效果应如右图所示：
 ![temple](temple.png)
 

@@ -52,3 +52,5 @@ parts:
       title: 'OpenCV函数包安装'
     - file: final/final_1
       title: 'Final Project I'
+    - file: final/final_2
+      title: 'Final Project II'

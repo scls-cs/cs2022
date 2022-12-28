@@ -33,10 +33,10 @@ import cv2
 def mirror(img):
   img_width = img.shape[1]  # image width
   img_height = img.shape[0]  # image height
-    for row in range(img_height):
-      for col in range(img_width//2):
-        leftPixel = img[row, col]
-        img[row,img_width-1-col] = leftPixel
+  for row in range(img_height):
+    for col in range(img_width//2):
+      leftPixel = img[row, col]
+      img[row,img_width-1-col] = leftPixel
   return img
 
 img = cv2.imread('caterpillar.jpeg')

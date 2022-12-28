@@ -30,6 +30,8 @@ kernelspec:
 
 ```{code-cell} python3
 import cv2
+from IPython.display import Image
+
 def mirror(img):
   img_width = img.shape[1]  # image width
   img_height = img.shape[0]  # image height

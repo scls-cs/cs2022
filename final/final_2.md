@@ -13,9 +13,38 @@ kernelspec:
   name: python3
 ---
 
-# 期末大作业I #
+# 期末大作业II #
 
-## 任务一：描述图片 ##
+## 任务一：图片镜像 ##
+
+完美对称的图形和建筑随处可见。如果我们在图片宽度的中心线上放置一面镜子，将左侧反射出来会是什么样子？我们应该怎么做？
+
+![mirror](mirror.png)
+
+
+如何镜像一张图片呢？
+
+如果将图片看作一个二维列表，只需要沿着图片的中轴线，将列表左边的像素值复制到右边。
+
+![mirrorarray](mirrorarray.png)
+
+```{code-cell} python3
+import cv2
+def mirror(img):
+  img_width = img.shape[1]  # image width
+  img_height = img.shape[0]  # image height
+    for row in range(img_height):
+      for col in range(img_width//2):
+        leftPixel = img[row, col]
+        img[row,img_width-1-col] = leftPixel
+  return img
+
+img = cv2.imread('caterpillar.jpeg')
+newImage = mirror(img)
+cv2.imwrite("1.jpeg", newImage)
+Image(filename='caterpillar.jpeg') 
+Image(filename='1.jpeg') 
+```
 
 打开https://pixspy.com/，上传任意一张照片。鼠标在图片上移动，观察鼠标旁的数字，回答以下问题：
 

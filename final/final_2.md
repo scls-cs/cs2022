@@ -47,7 +47,7 @@ Image(filename='1.jpeg')
 
 参考以上代码，完成下列函数：
 
-1-1：示例函数是将图片从左向右镜像，设计函数mirrorVerticalRightToLeft，使图片从右向左镜像。图片可以点击{download}`红色摩托车 <redMotorcycle.jpeg>`下载。
+1-1：示例函数是将图片从左向右镜像，设计函数mirrorVerticalRightToLeft，使图片从右向左镜像。图片可以点击{download}`毛毛虫 <caterpillar.jpeg>`下载。
 
 1-2：设计函数mirrorHorizontal，使得图片从上向下镜像，如下图所示：
 ![mirrormotor](mirrormotor.png)

@@ -63,6 +63,14 @@ OpenCV是一个跨平台计算机视觉库，可以运行在Linux, Windows和Mac
         pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ opencv-python
 
 
+.. note::
+    如果1-3步遇到问题，你也可以采用这种方式来安装：
+
+    https://vsa.edu.in/how-to-install-opencv-cv2-on-pycharm/
+
+    除了opencv-python之外，还需要安装numpy（同样的方法搜索numpy即可）
+
+
 4. 新建一个文件
 --------------
 

@@ -13,7 +13,7 @@ kernelspec:
   name: python3
 ---
 
-# 图像处理 #
+# 期末大作业I #
 
 ## 任务一：描述图片 ##
 

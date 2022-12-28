@@ -79,12 +79,12 @@ def edge(img, dist):
     img_height = img.shape[0]  # image height
     for i in range(img_height):
         for j in range(img_width-1):
-            currentPixel = img[i,j]
-            nextPixel = img[i][j+1]
+            currentPixel = img[i,j]   #当前像素
+            nextPixel = img[i,j+1]    #右边像素
             diff = colorDiff(currentPixel, nextPixel)
-            if(diff > dist):
+            if(diff > dist):          #检测到轮廓
                 img[i,j] = [0,0,0]
-            else:
+            else:                     #未检测到轮廓
                 img[i,j] = [255,255,255]
     return img
 

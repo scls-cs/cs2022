@@ -17,5 +17,3 @@ sphinx_jupyterbook_latex
 linkify-it-py
 opencv-python
 opencv-python-headless
-python3-opencv
-python>=3.8

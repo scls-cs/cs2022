@@ -16,4 +16,4 @@ sphinx_book_theme
 sphinx_jupyterbook_latex
 linkify-it-py
 opencv-python
-opencv-python-headless
+opencv-python-headless==4.5.3.56

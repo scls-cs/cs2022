@@ -41,7 +41,6 @@ def mirror(img):
 img = cv2.imread('caterpillar.jpeg')
 newImage = mirror(img)
 cv2.imwrite("1.jpeg", newImage)
-Image(filename='caterpillar.jpeg') 
 Image(filename='1.jpeg') 
 ```
 

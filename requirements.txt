@@ -15,4 +15,4 @@ sphinx_design
 sphinx_book_theme
 sphinx_jupyterbook_latex
 linkify-it-py
-opencv-contrib-python
+opencv-contrib-python-headless

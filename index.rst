@@ -46,6 +46,13 @@
 .. title:: 信息技术
 
 .. toctree::
+   :caption: 🔥期末大作业展示🔥
+   :hidden:
+   :maxdepth: 10
+
+   finalwork/work
+
+.. toctree::
    :caption: Python介绍
    :hidden:
    :maxdepth: 10

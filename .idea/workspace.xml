@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/work.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/color_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/teapot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/final_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/template.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/work.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/ascii.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problog_book_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/problog_book_template.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,28 +159,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/final" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/finalwork" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Markdown" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/finalwork" />
       <recent name="$PROJECT_DIR$/final" />
       <recent name="$PROJECT_DIR$/loop" />
       <recent name="$PROJECT_DIR$/condition" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/image" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/final" />
       <recent name="$PROJECT_DIR$/_static" />
-      <recent name="$PROJECT_DIR$/loop" />
-      <recent name="$PROJECT_DIR$/condition" />
-      <recent name="$PROJECT_DIR$/function" />
     </key>
   </component>
   <component name="RunManager">
@@ -250,6 +262,14 @@
       <workItem from="1672825923136" duration="25000" />
       <workItem from="1672968056056" duration="1003000" />
       <workItem from="1672970724661" duration="655000" />
+      <workItem from="1673011314576" duration="602000" />
+      <workItem from="1673339506608" duration="1569000" />
+      <workItem from="1673578615136" duration="19000" />
+      <workItem from="1673583038498" duration="658000" />
+      <workItem from="1673596554940" duration="22000" />
+      <workItem from="1673596847358" duration="362000" />
+      <workItem from="1673665229467" duration="3000" />
+      <workItem from="1676948138696" duration="5040000" />
     </task>
     <servers />
   </component>
@@ -280,6 +300,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

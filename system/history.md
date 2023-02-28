@@ -1,16 +1,16 @@
 ---
 jupytext:
-formats: md:myst
-text_representation:
-extension: .md
-format_name: myst
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
 rise:
-start_slideshow_at: beginning
+  start_slideshow_at: beginning
 
 kernelspec:
-display_name: Python 3
-language: python
-name: python3
+  display_name: Python 3
+  language: python
+  name: python3
 ---
 
 # 计算机的发展史 #

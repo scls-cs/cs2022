@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="" />
+    <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/ca484b75c9e681c89cc70bdfd6b7cfb6/base.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/system/history.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/Babbage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/Pascal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/abacus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/eniac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/lai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/von.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/system/history.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/system/history.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/system/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/system/history.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/system/history.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/history.md" beforeDir="false" afterPath="$PROJECT_DIR$/system/history.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

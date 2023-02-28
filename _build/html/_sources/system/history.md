@@ -37,7 +37,7 @@ kernelspec:
 
 帕斯卡（1623-1662）
 
-![pascal](pascal.png)
+![pascal](Pascal.png)
 
 * 12岁独自发现了“三角形的内角和等于180度”
 * 16岁参加巴黎数学家和物理学家小组

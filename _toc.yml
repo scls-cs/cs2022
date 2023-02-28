@@ -54,3 +54,9 @@ parts:
       title: 'Final Project I'
     - file: final/final_2
       title: 'Final Project II'
+
+- caption: Computer Systems
+  chapters:
+    - file: system/history
+      title: '计算机的发展历史'
+

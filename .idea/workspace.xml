@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/system/Babbage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/abacus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/eniac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/history.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/lai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/pascal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/table.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/von.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_toc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_toc.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/xyz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problog_book_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/problog_book_template.md" afterDir="false" />
-    </list>
+    <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

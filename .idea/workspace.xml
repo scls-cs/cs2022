@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/714306810afccdfada30d5a623aa2a12/.bridge.jpeg.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/8a871f0c6a38a5932e4ed47c6377872e/.deep learning.pptx.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/ba53944c64a95074ce950220fe521e7e/.For Loop.pptx.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/.bridge.jpeg.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/.deep learning.pptx.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/.t1.png.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final/.t2.png.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loop/.For Loop.pptx.icloud" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/bridge.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/deep learning.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/t1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/t2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop/For Loop.pptx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/system/overview.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +259,7 @@
       <workItem from="1673665229467" duration="3000" />
       <workItem from="1676948138696" duration="6421000" />
       <workItem from="1677560836911" duration="1604000" />
-      <workItem from="1678170261149" duration="2780000" />
+      <workItem from="1678170261149" duration="2850000" />
     </task>
     <servers />
   </component>

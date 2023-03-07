@@ -30,10 +30,9 @@ kernelspec:
 
 * 可以通过nslookup命令来查找域名对应的IP地址。如果你用Mac，在Launchpad里面搜索"Terminal"。如果你用的是Windows，在开始菜单中搜索"cmd"进入终端。输入"nslookup google.com"，显示类似如下结果：（返回的IP地址可能不同，与电脑配置的DNS服务器有关）
 
-```python
+```
 	
 	  nslookup google.com
-
     Server:     10.10.0.215
     Address:    10.10.0.215#53
 
@@ -48,7 +47,7 @@ kernelspec:
 
 
 
-```python
+```
 
     traceroute ucla.edu
     traceroute to ucla.edu (128.97.27.37), 64 hops max, 52 byte packets

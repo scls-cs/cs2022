@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/ca484b75c9e681c89cc70bdfd6b7cfb6/base.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/doctrees/system/history.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_images/Babbage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_images/Pascal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_images/abacus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_images/eniac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_images/lai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_images/table.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_images/von.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_sources/system/history.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_sources/system/history.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/system/history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/system/history.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/system/history.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/history.md" beforeDir="false" afterPath="$PROJECT_DIR$/system/history.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/system/overview.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/system/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/system/overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/计算机网络作业.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/system/history.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/system/history.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/system/history.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/system/history.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/system/history.md" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/system/history.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/system/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/system/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/jupyter_execute/system/history.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/jupyter_execute/system/history.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/jupyter_execute/system/history.py" beforeDir="false" afterPath="$PROJECT_DIR$/_build/jupyter_execute/system/history.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_toc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_toc.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +160,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="16" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/finalwork" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -176,11 +175,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/system" />
+      <recent name="$PROJECT_DIR$/network" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/image" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/final" />
-      <recent name="$PROJECT_DIR$/_static" />
     </key>
   </component>
   <component name="RunManager">
@@ -272,6 +271,7 @@
       <workItem from="1673665229467" duration="3000" />
       <workItem from="1676948138696" duration="6421000" />
       <workItem from="1677560836911" duration="1604000" />
+      <workItem from="1678170261149" duration="1605000" />
     </task>
     <servers />
   </component>

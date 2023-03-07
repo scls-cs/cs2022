@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_build/doctrees/system/overview.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_sources/system/overview.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/system/overview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/overview.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/计算机网络作业.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/system/history.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/system/history.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/system/history.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/system/history.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/system/history.md" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/system/history.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/system/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/system/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/jupyter_execute/system/history.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/jupyter_execute/system/history.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/jupyter_execute/system/history.py" beforeDir="false" afterPath="$PROJECT_DIR$/_build/jupyter_execute/system/history.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_toc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_toc.yml" afterDir="false" />
-    </list>
+    <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -271,7 +257,7 @@
       <workItem from="1673665229467" duration="3000" />
       <workItem from="1676948138696" duration="6421000" />
       <workItem from="1677560836911" duration="1604000" />
-      <workItem from="1678170261149" duration="1605000" />
+      <workItem from="1678170261149" duration="1963000" />
     </task>
     <servers />
   </component>

@@ -61,3 +61,5 @@ parts:
       title: '计算机的发展历史'
     - file: system/overview
       title: '计算机网络'
+    - file: system/mail
+      title: '大作业：邮件发送程序'

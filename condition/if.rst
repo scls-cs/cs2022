@@ -31,6 +31,7 @@ if
 除了==以外，还有一些运算符也用来构成布尔表达式，例如>，<，>=, <=，这些符号叫做比较运算符（comparison operator），负责比较符号两边值的大小。运算结果也是布尔值。
 
 .. code-block:: python
+
     age = 15
     year = 14
     print(age < year)

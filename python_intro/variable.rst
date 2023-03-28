@@ -62,6 +62,7 @@ Python提供了可以广泛应用的数据类型。在前面一节我们已经�
 
 
 .. code-block:: python
+
     a = "Good morning!"    #a是字符串
     a = 1                  #a是整数
 

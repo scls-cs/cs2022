@@ -1,0 +1,55 @@
+M = 987654321
+s = ""
+while (M != 0) {
+   digit = M % 10
+   if(digit%2):
+   	s = s + digit
+   	s = s + str(digit)
+   	M = M / 10
+}
+print(s)  //should print 20
+
+
+
+def checkPrime(n):
+  #add your code here
+  return False
+
+
+i = 10
+while(i>0):
+  if(i == 7):
+	break
+  print(i)
+  i=i-1
+
+import random
+i = 1000000
+one=0
+two=0
+three=0
+four=0
+five=0
+six=0
+while(i>0):
+	a = random.randint(1,6) #generate a random integer in range [1,6] including 6
+	if(a == 1):
+		one=one+1
+	elif(a == 2):
+		two=two+1
+	elif(a == 3):
+		three=three+1	
+	elif(a == 4):
+		four=four+1	
+	elif(a == 5):
+		five=five+1
+	else:
+		six=six+1
+	i=i-1
+print("The possibility of getting face 1 is: " + str(one/1000000))	
+print("The possibility of getting face 2 is: " + str(two/1000000))	
+print("The possibility of getting face 3 is: " + str(three/1000000))	
+print("The possibility of getting face 4 is: " + str(four/1000000))	
+print("The possibility of getting face 5 is: " + str(five/1000000))	
+print("The possibility of getting face 6 is: " + str(six/1000000))	
+	

@@ -59,3 +59,18 @@ sphinx_problog_execution_server_url = 'https://verne.cs.kuleuven.be/problog/api/
 suppress_warnings = ['myst.domains']
 use_jupyterbook_latex = True
 use_multitoc_numbering = True
+
+import os
+
+on_rtd = os.environ.get("READTHEDOCS") == "True"
+
+if on_rtd:
+    html_baseurl = os.environ.get("READTHEDOCS_OUTPUT", "")
+    if html_baseurl:
+        html_baseurl = os.path.join(html_baseurl, "html")
+    else:
+        html_baseurl = BUILDDIR
+else:
+    html_baseurl = BUILDDIR
+
+html_theme_path = [html_baseurl]

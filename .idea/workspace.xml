@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/python_intro/variable.rst" beforeDir="false" afterPath="$PROJECT_DIR$/python_intro/variable.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.conf.py.swp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/image filtering.pptx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +262,8 @@
       <workItem from="1676948138696" duration="6421000" />
       <workItem from="1677560836911" duration="1604000" />
       <workItem from="1678170261149" duration="2850000" />
-      <workItem from="1679965839847" duration="450000" />
+      <workItem from="1679965839847" duration="994000" />
+      <workItem from="1681086523164" duration="853000" />
     </task>
     <servers />
   </component>

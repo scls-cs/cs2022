@@ -90,7 +90,7 @@ while running:
 pygame.quit()
 ```
 
-Ex1：创建400x400的白色窗口
+## Ex1：创建400x400的白色窗口 ##
 
 https://replit.com/@scls-cs/Game0
 
@@ -121,7 +121,7 @@ while running:
   pygame.display.flip()
 ```
 
-Ex2：按下鼠标使窗口闪烁
+## Ex2：按下鼠标使窗口闪烁 ##
 
 https://replit.com/@scls-cs/Game1
 
@@ -157,7 +157,7 @@ while running:
   pygame.display.flip()
 ```
 
-Ex3：通过移动鼠标改变屏幕颜色
+## Ex3：通过移动鼠标改变屏幕颜色 ##
 
 https://replit.com/@scls-cs/Game2
 

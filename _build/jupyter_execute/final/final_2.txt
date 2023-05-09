@@ -1,0 +1,36 @@
+import cv2
+from IPython.display import Image
+
+def mirror(img):
+  img_width = img.shape[1]  # image width
+  img_height = img.shape[0]  # image height
+  for row in range(img_height):
+    for col in range(img_width//2):
+      leftPixel = img[row, col]
+      img[row,img_width-1-col] = leftPixel
+  return img
+
+img = cv2.imread('caterpillar.jpeg')
+newImage = mirror(img)
+cv2.imwrite("1.jpeg", newImage)
+Image(filename='1.jpeg') 
+
+def edge(img, dist):
+    img_width = img.shape[1]  # image width
+    img_height = img.shape[0]  # image height
+    for i in range(img_height):
+        for j in range(img_width-1):
+            currentPixel = img[i,j]   #当前像素
+            nextPixel = img[i,j+1]    #右边像素
+            diff = colorDiff(currentPixel, nextPixel)
+            if(diff > dist):          #检测到轮廓
+                img[i,j] = [0,0,0]
+            else:                     #未检测到轮廓
+                img[i,j] = [255,255,255]
+    return img
+
+def colorDiff(p1, p2):
+    b1, g1, r1 = int(p1[0]),int(p1[1]),int(p1[2])
+    b2, g2, r2 = int(p2[0]), int(p2[1]), int(p2[2])
+    return math.sqrt(math.pow((b2-b1),2) + math.pow((g2-g1),2) + math.pow((r2-r1),2))
+

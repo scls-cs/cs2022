@@ -2,6 +2,460 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/46a3a766e638f013969a318344648469/base.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/6e8e26649e3b9692b9124eead7e7302c/.base 2.ipynb.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/6e8e26649e3b9692b9124eead7e7302c/base.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/821570f8492dc4e42abe381573c0c087 2/.base.ipynb.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/821570f8492dc4e42abe381573c0c087/base.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/92e42ca49f44c4f62c5536046280bef7 2/.base.ipynb.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/92e42ca49f44c4f62c5536046280bef7/base.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/a0f0f3e7e79b8830096d7f8482b77e8e 2/.base 2.ipynb.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/a0f0f3e7e79b8830096d7f8482b77e8e 2/.base.ipynb.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/a0f0f3e7e79b8830096d7f8482b77e8e/base.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/c67dcae1086056bf97c32fea160291d0 2/.base.ipynb.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/c67dcae1086056bf97c32fea160291d0/base.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/ca484b75c9e681c89cc70bdfd6b7cfb6/base.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/global.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition 2/.elif.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition 2/.hw4.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition 2/.hw5.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition 2/.hw6.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition 2/.hw7+.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition 2/.hw7.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition 2/.if-else.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition 2/.if.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition 2/.logical-operator.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition 2/.logical_operator.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition/elif.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw4.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw5.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw6.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw7+.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition/hw7.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition/if-else.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition/if.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition/logical-operator.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/condition/logical_operator.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/conf.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/environment.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.char.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.compress.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.digit_recognition.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.example.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.filter.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.final_1.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.final_2.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.image.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.image_recognition.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.opencv.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.pycharm.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.sound.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final 2/.template.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/char.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/compress.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/digit_recognition.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/example.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/filter.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/final_1.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/final_2.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/image.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/image_recognition.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/opencv.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/pycharm.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/sound.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/final/template.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function 2/.function.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function 2/.hw1.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function 2/.hw2.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function 2/.hw3.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function 2/.math.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function 2/.string.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function/function.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function/hw1.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function/hw2.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function/hw3.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function/math.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/function/string.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/game/hw1.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/game/intro.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/glue_cache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/index.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/loop 2/.algorithm.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/loop 2/.list.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/loop 2/.ps8.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/loop 2/.while.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/loop 2/.while2.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/loop/algorithm.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/loop/list.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/loop/ps8.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/loop/while.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/loop/while2.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/python_intro 2/.first_program.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/python_intro 2/.test.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/python_intro 2/.variable.doctree.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/first_program.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/test.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/python_intro/variable.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/src/problog_book_template.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/system/history.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/system/overview.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/doctrees/work.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/.buildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/00153b96910601e5ff6e998d7c9820da/Algorithm.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/0c6ba63783ae38363fee2f89a5d4f51d/temple.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/111928962407213bea86b6d218c323ba/Image Recognition I.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/11246d6b42feeae1229bc318753f9901/数学函数.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/1628b8d95acb46feebe53f9302087b09/字符串.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/373eee9baf84362c403f1268b6208cd1/beach.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/385c08802582a9d85d15024bf8923b97/逻辑与多分支结构.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/39129ded8c480e5974a28a4457bde8c0/函数.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/43dfff3ab7ee29899936ebc96c148b5a/Image Recognition II.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/43ec05862ad9af218cb0fab256375b1b/变量与数据类型.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/531de0af7ec2b61e70e2adbe4e3f8be7/image processing project.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/53292f70c0384508dd0f4fc064f0014b/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/63ab65f8397252e1daf96463edf896e1/images.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/8754308bb0030b26ba4c67ef50669afc/类型转换编程作业.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/a2c9928157c9f474e9edce69fd529714/Loops.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/af53d8af62dc88e03a0d71343a2a9981/caterpillar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/ba5968957e970bd90f622b1f4feb3dd0/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/c7862e84d2d6753e628baa77e22a85da/LoopsII.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/e29c224e64182bd65ed1e0d39c8f10fd/swan.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/e2a7350a56a3492a16c35eaeeece753d/redMotorcycle.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/e55f4a65452aa4309fa8d09bf682f4b4/双分支结构.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/f3a3b2e8b081225cd757069ae8ac54d2/条件判断.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_downloads/fd7fdb5dddd0e08af68785b265a070a2/认识Python程序.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/Babbage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/abacus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/add1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/ascii.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/ascii_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/beach.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/binary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/channel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/chinese_char.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/color_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/config_inter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/dice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/dot.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/edge_swan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/eniac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/ex_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/example_52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/filenotfound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/gamble.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/import.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/install1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/install2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/interpreter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/kiwi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/lai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/list-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/loop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/mirror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/mirrorarray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/mirrormotor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/motorcycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/move.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/new_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/numArEx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/opencv.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/pascal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/path.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/pil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/pip.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/python.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/result_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/s1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/s2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/script.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/solve.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/str.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/teapot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/temple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/terminal.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/terminal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/test_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/test_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/timeout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/uninstall.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/version.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/von.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_images/win.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/elif.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/elif.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/hw4.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/hw5.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/hw6.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/hw7+.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/hw7+.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/hw7.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/hw7.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/if-else.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/if.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/logical-operator.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/logical_operator.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/condition/logical_operator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/char.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/compress.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/digit_recognition.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/filter.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/final_1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/final_1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/final_2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/final_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/image.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/image_recognition.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/opencv.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/pycharm.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/sound.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/final/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/function/function.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/function/hw1.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/function/hw2.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/function/hw3.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/function/math.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/function/string.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/game/hw1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/game/hw1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/game/intro.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/game/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/loop/algorithm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/loop/algorithm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/loop/list.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/loop/list.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/loop/ps8.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/loop/ps8.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/loop/while.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/loop/while.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/loop/while2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/loop/while2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/python_intro/first_program.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/python_intro/test.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/python_intro/variable.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/src/problog_book_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/system/history.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/system/history.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/system/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sources/work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sphinx_design_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_sphinx_design_static/design-tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/check-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/clipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/copy-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/copybutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/copybutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/copybutton_funcs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/design-tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/doctools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/documentation_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/images/logo_binder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/images/logo_colab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/images/logo_deepnote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/images/logo_jupyterhub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/jquery-3.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/language_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/ar/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/bg/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/bn/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/ca/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/cs/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/da/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/de/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/el/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/eo/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/es/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/et/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/fi/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/fr/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/hr/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/id/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/it/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/iw/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/ja/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/ko/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/lt/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/lv/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/ml/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/mr/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/ms/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/nl/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/no/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/pl/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/pt/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/ro/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/ru/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/sk/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/sl/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/sr/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/sv/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/ta/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/te/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/tg/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/th/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/tl/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/tr/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/uk/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/ur/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/vi/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/zh_CN/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/locales/zh_TW/LC_MESSAGES/booktheme.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/mystnb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/pygments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/sbt-webpack-macros.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/scripts/pydata-sphinx-theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/scripts/sphinx-book-theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/scripts/sphinx-book-theme.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/searchtools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/sphinx-thebe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/sphinx-thebe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/styles/pydata-sphinx-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/styles/sphinx-book-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/styles/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/togglebutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/togglebutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/underscore-1.13.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/underscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/_static/webpack-macros.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/condition/elif.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/condition/hw4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/condition/hw5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/condition/hw6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/condition/hw7+.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/condition/hw7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/condition/if-else.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/condition/if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/condition/logical-operator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/condition/logical_operator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/conf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/char.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/compress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/digit_recognition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/final_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/final_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/image_recognition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/opencv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/pycharm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/sound.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/final/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/function/function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/function/hw1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/function/hw2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/function/hw3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/function/math.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/function/string.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/game/hw1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/game/intro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/loop/algorithm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/loop/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/loop/ps8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/loop/while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/loop/while2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/objects.inv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/python_intro/first_program.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/python_intro/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/python_intro/variable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/algorithm.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/final_1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/final_2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/intro.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/list.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/ps8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/template.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/reports/while2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/src/problog_book_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/system/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/system/overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/html/work.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/condition/elif.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/condition/elif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/condition/hw7+.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/condition/hw7+.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/condition/hw7.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/condition/hw7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/condition/logical_operator.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/condition/logical_operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/conf.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/final/example.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/final/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/final/final_1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/final/final_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/final/final_2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/final/final_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/final/template.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/final/template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/game/hw1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/game/hw1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/game/intro.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/game/intro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/algorithm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/algorithm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/list.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/ps8.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/ps8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/while.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/while.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/while2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/while2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/system/history.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/jupyter_execute/system/history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/collision.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/hw1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/move.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fenny.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_toc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_toc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problog_book_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/problog_book_template.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,25 +610,26 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/finalwork" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/game" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game" />
       <recent name="$PROJECT_DIR$/finalwork" />
       <recent name="$PROJECT_DIR$/final" />
       <recent name="$PROJECT_DIR$/loop" />
       <recent name="$PROJECT_DIR$/condition" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/game" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/system" />
       <recent name="$PROJECT_DIR$/network" />
       <recent name="$PROJECT_DIR$/src/image" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -268,7 +723,13 @@
       <workItem from="1677560836911" duration="1604000" />
       <workItem from="1678170261149" duration="2850000" />
       <workItem from="1679965839847" duration="994000" />
-      <workItem from="1681086523164" duration="2234000" />
+      <workItem from="1681086523164" duration="2975000" />
+      <workItem from="1681093838988" duration="1547000" />
+      <workItem from="1683009734656" duration="2506000" />
+      <workItem from="1683347007572" duration="191000" />
+      <workItem from="1683361049844" duration="161000" />
+      <workItem from="1683364346374" duration="1477000" />
+      <workItem from="1683612804398" duration="4791000" />
     </task>
     <servers />
   </component>

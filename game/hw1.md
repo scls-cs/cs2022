@@ -13,9 +13,7 @@ kernelspec:
   name: python3
 ---
 
-## 作业 ##
-
-其中作业一和作业三提交在
+# 作业 #
 
 作业一：完成Ex1, Ex2, Ex3，回答下面问题：
 
@@ -42,5 +40,8 @@ e. 如果将Ex3中的width和height设置为400和400，程序运行可能会报
 ![collision.gif](collision.gif)
 
 
+## 提交 ##
 
+其中作业一和作业三提交在hw.txt中，作业二和作业五提交在main.py里。
 
+提交链接：https://replit.com/@SCLS-CS2022/HW1

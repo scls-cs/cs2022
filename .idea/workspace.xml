@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_build/.jupyter_cache/executed/41aeb3c5164515629aa694e1017abde0/base.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_build/html/_images/collision.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/.jupyter_cache/global.db" beforeDir="false" afterPath="$PROJECT_DIR$/_build/.jupyter_cache/global.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/conf.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/conf.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/environment.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/game/hw1.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/game/hw1.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/game/intro.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/game/intro.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/game/hw1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/game/hw1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/game/hw1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/game/hw1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/game/intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/game/intro.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/game/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/game/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/loop/list.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/loop/list.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/conf.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/conf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/game/hw1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/game/hw1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/game/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/game/intro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/jupyter_execute/conf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/jupyter_execute/conf.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/jupyter_execute/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/_build/jupyter_execute/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/jupyter_execute/game/hw1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/jupyter_execute/game/hw1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/jupyter_execute/game/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/_build/jupyter_execute/game/hw1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/jupyter_execute/game/intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/jupyter_execute/game/intro.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/jupyter_execute/loop/list.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/_build/jupyter_execute/loop/list.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/hw1.md" beforeDir="false" afterPath="$PROJECT_DIR$/game/hw1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +276,7 @@
       <workItem from="1683347007572" duration="191000" />
       <workItem from="1683361049844" duration="161000" />
       <workItem from="1683364346374" duration="1477000" />
-      <workItem from="1683612804398" duration="6483000" />
+      <workItem from="1683612804398" duration="6638000" />
     </task>
     <servers />
   </component>

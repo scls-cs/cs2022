@@ -75,3 +75,4 @@ else:
     html_baseurl = BUILDDIR
 
 html_theme_path = [html_baseurl]
+html_output_path = os.environ.get("READTHEDOCS_OUTPUT", "_build") + "/html"

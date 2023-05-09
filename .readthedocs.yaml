@@ -19,5 +19,3 @@ formats:
   - htmlzip
   - pdf
   - epub
-
-output_base: $READTHEDOCS_OUTPUT/html

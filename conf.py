@@ -63,7 +63,7 @@ use_multitoc_numbering = True
 
 import os
 
-on_rtd = True
+on_rtd = os.environ.get("READTHEDOCS") == "True"
 
 if on_rtd:
     html_baseurl = os.environ.get("READTHEDOCS_OUTPUT", "")

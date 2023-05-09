@@ -1,0 +1,23 @@
+version: 2
+
+build:
+  image: latest
+
+python:
+  version: 3.7
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
+
+sphinx:
+  configuration: conf.py
+  fail_on_warning: true
+
+formats:
+  - htmlzip
+  - pdf
+  - epub
+
+output_base: $READTHEDOCS_OUTPUT/html

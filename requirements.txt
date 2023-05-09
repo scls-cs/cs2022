@@ -16,4 +16,4 @@ sphinx_book_theme
 sphinx_jupyterbook_latex
 linkify-it-py
 opencv-contrib-python-headless
-urllib3>=2.0
+urllib3>=1.26,<2.0

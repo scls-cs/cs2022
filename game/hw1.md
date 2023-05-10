@@ -15,7 +15,7 @@ kernelspec:
 
 # 作业 #
 
-作业一：完成Ex1, Ex2, Ex3，回答下面问题：
+作业一：完成[intro](intro.md)中的Ex1, Ex2, Ex3，回答下面问题：
 
 a. Ex1中，负责设置窗口标题和窗口颜色的代码分别是哪条？如果想要将窗口颜色设置为红色，应该如何修改代码？
 
@@ -44,4 +44,4 @@ e. 如果将Ex3中的width和height设置为400和400，程序运行可能会报
 
 其中作业一和作业三提交在hw.txt中，作业二和作业五提交在main.py里。
 
-提交链接：https://replit.com/@SCLS-CS2022/HW1
+提交链接：https://replit.com/team/SCLS-CS2022/HW1

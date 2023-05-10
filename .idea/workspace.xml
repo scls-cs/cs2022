@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/game/hw1.md" beforeDir="false" afterPath="$PROJECT_DIR$/game/hw1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problog_book_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/problog_book_template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work.md" beforeDir="false" afterPath="$PROJECT_DIR$/work.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +276,7 @@
       <workItem from="1683347007572" duration="191000" />
       <workItem from="1683361049844" duration="161000" />
       <workItem from="1683364346374" duration="1477000" />
-      <workItem from="1683612804398" duration="6943000" />
+      <workItem from="1683612804398" duration="7299000" />
     </task>
     <servers />
   </component>

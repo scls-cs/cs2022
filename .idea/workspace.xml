@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/game/.score.gif.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/bounce.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/gravity.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/hw2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/paddle_pos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/range.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/move.md" beforeDir="false" afterPath="$PROJECT_DIR$/game/move.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/hw2.md" beforeDir="false" afterPath="$PROJECT_DIR$/game/hw2.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +279,7 @@
       <workItem from="1683767171158" duration="4246000" />
       <workItem from="1684120284088" duration="598000" />
       <workItem from="1684195222008" duration="236000" />
-      <workItem from="1684205383872" duration="4043000" />
+      <workItem from="1684205383872" duration="4323000" />
     </task>
     <servers />
   </component>

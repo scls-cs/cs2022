@@ -52,6 +52,6 @@ kernelspec:
 
 ## 提交 ##
 
-其中作业一、二、四提交在main.py中，作业二和作业五提交在homework.txt里。
+其中作业一、二、四提交在main.py中，作业二和附加题提交在homework.txt里。
 
 提交链接：https://replit.com/team/SCLS-CS2022/Game-II

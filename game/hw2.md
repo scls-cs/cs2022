@@ -20,7 +20,9 @@ kernelspec:
 作业二：在作业一中引入重力因素（重力加速度自行指定），完成小球的碰撞模拟。不考虑能量损耗。
 ![gravity](gravity.gif)
 
-作业三：运行示例程序paddlemove: https://replit.com/@scls-cs/paddlemove#main.py，并回答如下问题：
+作业三：运行示例程序paddlemove: https://replit.com/@scls-cs/paddlemove#main.py
+
+回答如下问题：
 
 1. 结合[move](move.md)中按键操纵的内容，指出白色边框，以及球拍初始位置的四个顶点的坐标。
 

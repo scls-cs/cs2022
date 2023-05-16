@@ -194,6 +194,3 @@ while running:
 
 [HW](hw1.md)
 
-第二周作业（待完善）
-
-![ball-with-paddle.gif](ball-with-paddle.gif)

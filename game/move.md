@@ -108,3 +108,7 @@ while running:
 * `pygame.draw.rect(screen, PADDLE_COLOR, (paddle_x, paddle_y, PADDLE_WIDTH, PADDLE_HEIGHT))`：在屏幕上绘制球拍。使用PADDLE_COLOR颜色，位置为(paddle_x, paddle_y)，宽度为PADDLE_WIDTH，高度为PADDLE_HEIGHT。
 
 注意：paddle_x和paddle_y是挡板左上角的坐标。
+
+## 作业 ##
+
+[HW](hw2.md)

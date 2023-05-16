@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/game/score.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.score.gif.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/game/hw2.md" beforeDir="false" afterPath="$PROJECT_DIR$/game/hw2.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -279,7 +282,7 @@
       <workItem from="1683767171158" duration="4246000" />
       <workItem from="1684120284088" duration="598000" />
       <workItem from="1684195222008" duration="236000" />
-      <workItem from="1684205383872" duration="4323000" />
+      <workItem from="1684205383872" duration="4705000" />
     </task>
     <servers />
   </component>

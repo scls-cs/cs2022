@@ -61,3 +61,12 @@ kernelspec:
 其中作业一、二、四提交在main.py中，作业二和附加题提交在homework.txt里。
 
 提交链接：https://replit.com/team/SCLS-CS2022/Game-II
+
+
+## 作业答案 ##
+
+作业一：https://replit.com/@scls-cs/ballcollision?v=1
+
+作业二：https://replit.com/@scls-cs/gravity?v=1
+
+作业四和五：https://replit.com/@scls-cs/ball-with-paddle?v=1

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d724a8-62a5-46aa-b63d-222ce2b214d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/game/hw3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/hw2.md" beforeDir="false" afterPath="$PROJECT_DIR$/game/hw2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_toc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_toc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/hw3.md" beforeDir="false" afterPath="$PROJECT_DIR$/game/project.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +281,7 @@
       <workItem from="1684120284088" duration="598000" />
       <workItem from="1684195222008" duration="236000" />
       <workItem from="1684205383872" duration="5840000" />
-      <workItem from="1684824236837" duration="4257000" />
+      <workItem from="1684824236837" duration="4658000" />
     </task>
     <servers />
   </component>

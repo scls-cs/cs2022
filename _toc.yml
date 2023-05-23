@@ -68,3 +68,6 @@ parts:
       title: '游戏设计 I'
     - file: game/move
       title: '游戏设计 II'
+    - file: game/project
+      title: '游戏设计大作业'
+
